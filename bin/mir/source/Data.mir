@@ -1,8 +1,8 @@
-[ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\Data.mc"; @line = 6; glance = true; @symbol_moduledef = [LunarCalData,6,7,19]; ]
+[ @file = "C:\Users\wolfa\Desktop\Garmin_LunarCalendar\source\Data.mc"; @line = 6; glance = true; @symbol_moduledef = [LunarCalData,6,7,19]; ]
 module LunarCalData {
-    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\Data.mc"; @line = 6; ]
+    [ @file = "C:\Users\wolfa\Desktop\Garmin_LunarCalendar\source\Data.mc"; @line = 6; ]
     <init> {
-[ "C:\Users\wolfa\Desktop\LunarCalendar\source\Data.mc" 11 10 ]
+[ "C:\Users\wolfa\Desktop\Garmin_LunarCalendar\source\Data.mc" 11 10 ]
         %tmp.1 = newa 200;
         %tmp.2 = 0x04ae0;
         %tmp.3 = dup %tmp.1;
@@ -605,7 +605,7 @@ module LunarCalData {
         %tmp.600 = dup %tmp.598;
         %tmp.601 = aputv %tmp.600 199 %tmp.599;
         putv self :LUNAR_INFO %tmp.601;
-[ "C:\Users\wolfa\Desktop\LunarCalendar\source\Data.mc" 35 10 ]
+[ "C:\Users\wolfa\Desktop\Garmin_LunarCalendar\source\Data.mc" 35 10 ]
         %tmp.602 = newa 201;
         %tmp.603 = 0x00000;
         %tmp.604 = dup %tmp.602;
@@ -1211,7 +1211,7 @@ module LunarCalData {
         %tmp.1204 = dup %tmp.1202;
         %tmp.1205 = aputv %tmp.1204 200 %tmp.1203;
         putv self :LUNAR_YEAR_START %tmp.1205;
-[ "C:\Users\wolfa\Desktop\LunarCalendar\source\Data.mc" 60 10 ]
+[ "C:\Users\wolfa\Desktop\Garmin_LunarCalendar\source\Data.mc" 60 10 ]
         %tmp.1206 = newa 200;
         %tmp.1207 = "062104190621052106220622082308240824092408230822";
         %tmp.1208 = dup %tmp.1206;
@@ -1815,17 +1815,17 @@ module LunarCalData {
         %tmp.1806 = aputv %tmp.1805 199 %tmp.1804;
         putv self :TERM_DAYS %tmp.1806;
     }
-    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\Data.mc"; @line = 9; @position = 10; @symbol_constdef = [LUNAR_START_YEAR,9,10,26]; ]
+    [ @file = "C:\Users\wolfa\Desktop\Garmin_LunarCalendar\source\Data.mc"; @line = 9; @position = 10; @symbol_constdef = [LUNAR_START_YEAR,9,10,26]; ]
     const LUNAR_START_YEAR = 1901;
-    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\Data.mc"; @line = 10; @position = 10; @symbol_constdef = [LUNAR_END_YEAR,10,10,24]; ]
+    [ @file = "C:\Users\wolfa\Desktop\Garmin_LunarCalendar\source\Data.mc"; @line = 10; @position = 10; @symbol_constdef = [LUNAR_END_YEAR,10,10,24]; ]
     const LUNAR_END_YEAR = 2100;
-    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\Data.mc"; @line = 11; @position = 10; @symbol_constdef = [LUNAR_INFO,11,10,20]; ]
+    [ @file = "C:\Users\wolfa\Desktop\Garmin_LunarCalendar\source\Data.mc"; @line = 11; @position = 10; @symbol_constdef = [LUNAR_INFO,11,10,20]; ]
     const LUNAR_INFO;
-    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\Data.mc"; @line = 35; @position = 10; @symbol_constdef = [LUNAR_YEAR_START,35,10,26]; ]
+    [ @file = "C:\Users\wolfa\Desktop\Garmin_LunarCalendar\source\Data.mc"; @line = 35; @position = 10; @symbol_constdef = [LUNAR_YEAR_START,35,10,26]; ]
     const LUNAR_YEAR_START;
-    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\Data.mc"; @line = 60; @position = 10; @symbol_constdef = [TERM_DAYS,60,10,19]; ]
+    [ @file = "C:\Users\wolfa\Desktop\Garmin_LunarCalendar\source\Data.mc"; @line = 60; @position = 10; @symbol_constdef = [TERM_DAYS,60,10,19]; ]
     const TERM_DAYS;
 }
-[ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\Data.mc"; @line = 5; ]
+[ @file = "C:\Users\wolfa\Desktop\Garmin_LunarCalendar\source\Data.mc"; @line = 5; ]
 <init> {
 }

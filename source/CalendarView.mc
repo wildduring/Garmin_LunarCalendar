@@ -44,8 +44,8 @@ class CalendarView extends WatchUi.View {
             var face = "NotoSansSCMedium";
             _fTitle = Graphics.getVectorFont({:face => face, :size => 26});
             _fSub = Graphics.getVectorFont({:face => face, :size => 14});
-            _fNum = Graphics.getVectorFont({:face => face, :size => 19});
-            _fLunar = Graphics.getVectorFont({:face => face, :size => 13});
+            _fNum = Graphics.getVectorFont({:face => face, :size => 24});
+            _fLunar = Graphics.getVectorFont({:face => face, :size => 16});
             _fSmall = Graphics.getVectorFont({:face => face, :size => 12});
         }
         if (_fTitle == null) {
@@ -133,11 +133,11 @@ class CalendarView extends WatchUi.View {
         }
 
         // ---- 星期栏 + 网格 ----
-        var gridW = w * 84 / 100;
+        var gridW = w * 70 / 100;
         var cellW = gridW / 7;
         var x0 = (w - gridW) / 2;
         var gridTop = h * 220 / 1000;
-        var gridBottom = h * 800 / 1000;
+        var gridBottom = h * 900 / 1000;
 
         var firstWeekday = LunarCal.weekdayOf(LunarCal.ymdToDay(_year, _month, 1));
         var nDays = LunarCal.daysInMonth(_year, _month);
@@ -198,14 +198,14 @@ class CalendarView extends WatchUi.View {
         }
 
         // ---- 图例 + 提示 ----
-        var legendY = h * 862 / 1000;
-        drawCenter(dc, w * 22 / 100, legendY, _fSmall as Graphics.FontType, "法定", COLOR_REG);
-        drawCenter(dc, w * 43 / 100, legendY, _fSmall as Graphics.FontType, "传统", COLOR_TRAD);
-        drawCenter(dc, w * 64 / 100, legendY, _fSmall as Graphics.FontType, "节气", COLOR_TERM);
-        drawCenter(dc, w * 83 / 100, legendY, _fSmall as Graphics.FontType, "今日", COLOR_LUNAR_1);
+        // var legendY = h * 862 / 1000;
+        // drawCenter(dc, w * 22 / 100, legendY, _fSmall as Graphics.FontType, "法定", COLOR_REG);
+        // drawCenter(dc, w * 43 / 100, legendY, _fSmall as Graphics.FontType, "传统", COLOR_TRAD);
+        // drawCenter(dc, w * 64 / 100, legendY, _fSmall as Graphics.FontType, "节气", COLOR_TERM);
+        // drawCenter(dc, w * 83 / 100, legendY, _fSmall as Graphics.FontType, "今日", COLOR_LUNAR_1);
 
-        drawCenter(dc, w / 2, h * 925 / 1000, _fSmall as Graphics.FontType,
-                   "上下键切换月份", COLOR_HINT);
+        // drawCenter(dc, w / 2, h * 925 / 1000, _fSmall as Graphics.FontType,
+        //            "上下键切换月份", COLOR_HINT);
     }
 }
 

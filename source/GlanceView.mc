@@ -38,6 +38,13 @@ class GlanceView extends WatchUi.GlanceView {
                     Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 
+    private function drawLeft(dc as Graphics.Dc, x as Number, y as Number,
+                                font as Graphics.FontType, text as String, color as Number) as Void {
+        dc.setColor(color, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(x, y, font, text,
+                    Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER);
+    }
+
     public function onUpdate(dc as Graphics.Dc) as Void {
         var w = dc.getWidth();
         var h = dc.getHeight();
@@ -65,7 +72,7 @@ class GlanceView extends WatchUi.GlanceView {
             var lunarText = LunarCal.ganzhiYear(ly) + "年 " +
                             LunarCal.lunarMonthName(lm, inLeap) +
                             LunarCal.lunarDayName(ld);
-            drawCenter(dc, w / 2, h * 54 / 100, Graphics.FONT_XTINY, lunarText, COLOR_LUNAR);
+            drawLeft(dc, w * 8 / 100, h * 54 / 100, Graphics.FONT_XTINY, lunarText, COLOR_LUNAR);
         }
 
         var ev = LunarCal.nearestEvent(todayDay);
@@ -81,7 +88,7 @@ class GlanceView extends WatchUi.GlanceView {
             } else {
                 text = "已过" + name + " " + (-diff).toString() + "天";
             }
-            drawCenter(dc, w / 2, h * 80 / 100, Graphics.FONT_XTINY, text, colorOfKind(kind));
+            drawLeft(dc, w * 8 / 100, h * 80 / 100, Graphics.FONT_XTINY, text, colorOfKind(kind));
         }
     }
 }
