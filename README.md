@@ -1,13 +1,14 @@
 # 万年历 · Garmin fēnix 8
 
+<img src="screenshots/cover_1440x720.jpg" width="1400">
+
 给 Garmin fēnix 8 写的中文万年历（Connect IQ 5.2.0）：主界面是当月「公历 + 农历」月历，翻腕 Glance 显示今日公历/农历和最近的节气或节日。
 
 | 项目 | 值 |
 | --- | --- |
 | 应用类型 | watch-app（含 glance） |
-| 应用 ID | `8c4e2a1d9f6b3c5d7e0a1b2c3d4e5f60` |
 | minSdkVersion | 5.2.0 |
-| 支持产品 | `fenix843mm` / `fenix847mm` / `fenix8pro47mm` / `fenix8solar47mm` / `fenix8solar51mm` |
+| 支持产品 | `fenix843mm` / `fenix847mm` / `fenix8pro47mm` / `fenix8solar47mm` / `fenix8solar51mm` / `等等` |
 | 语言 | 中文（zhs） |
 | 权限 | 无 |
 | 日期范围 | 1901-01 ~ 2100-12 |
