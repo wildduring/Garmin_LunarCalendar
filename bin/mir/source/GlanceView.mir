@@ -1,0 +1,641 @@
+[ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Time,3,14,18]; ]
+import Toybox.Time;
+[ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [WatchUi,4,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 8; glance = true; @symbol_classdef = [GlanceView,8,6,16]; @symbol_extends<0> = [WatchUi,8,25,32]; @symbol_extends<1> = [GlanceView,8,33,43]; ]
+class GlanceView extends WatchUi.GlanceView {
+    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 10; @position = 10; @symbol_constdef = [COLOR_BG,10,10,18]; ]
+    const COLOR_BG = 0x000000;
+    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 11; @position = 10; @symbol_constdef = [COLOR_FG,11,10,18]; ]
+    const COLOR_FG = 0xFFFFFF;
+    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 12; @position = 10; @symbol_constdef = [COLOR_DIM,12,10,19]; ]
+    const COLOR_DIM = 0x8B929C;
+    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 13; @position = 10; @symbol_constdef = [COLOR_LUNAR,13,10,21]; ]
+    const COLOR_LUNAR = 0xB9C0CA;
+    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 14; @position = 10; @symbol_constdef = [COLOR_REG,14,10,19]; ]
+    const COLOR_REG = 0xFF6A4F;
+    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 15; @position = 10; @symbol_constdef = [COLOR_TRAD,15,10,20]; ]
+    const COLOR_TRAD = 0xFFB13B;
+    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 16; @position = 10; @symbol_constdef = [COLOR_TERM,16,10,20]; ]
+    const COLOR_TERM = 0x64B5FF;
+    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 18; @symbol_functiondef = [initialize,18,20,30]; ]
+    public
+    function initialize() as Void {
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_18_33_20_4_start:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 19 8 ]
+        symbol [ GlanceView %tmp.2 19 8 18 ];
+        %tmp.2 = getv ? :GlanceView;
+        symbol [ initialize %tmp.3 19 19 29 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_18_33_20_4_stop:
+    }
+    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 22; @symbol_functiondef = [colorOfKind,22,21,32]; @symbol_param<0> = [kind,22,33,37]; @symbol_param<0>_type<0> = [Number,22,41,47]; @symbol_return<0> = [Number,22,52,58]; ]
+    private
+    function colorOfKind(kind as Number) as Number {
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_22_59_32_4_start:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 23 8 ]
+        %tmp.1 = lgetv %kind;
+        symbol [ kind %tmp.1 23 16 20 ];
+        push %tmp.1;
+        switch %tmp.1 @C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_23_8_30_8_switchStmtEnd;
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_23_8_30_8_switchStmtBegin:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 24 12 ]
+        %tmp.2 = dup %tmp.1;
+        symbol [ LunarCal %tmp.4 24 17 25 ];
+        %tmp.4 = getv ? :LunarCal;
+        symbol [ KIND_REG %tmp.5 24 26 34 ];
+        %tmp.5 = getv %tmp.4 :KIND_REG;
+        %tmp.6 = getv function %tmp.2 :equals;
+        %tmp.7 = invoke %tmp.2 %tmp.6 (%tmp.5);
+        bt %tmp.7 @C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_24_12_25_32_switchCase;
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 26 12 ]
+        %tmp.8 = dup %tmp.1;
+        symbol [ LunarCal %tmp.10 26 17 25 ];
+        %tmp.10 = getv ? :LunarCal;
+        symbol [ KIND_TRAD %tmp.11 26 26 35 ];
+        %tmp.11 = getv %tmp.10 :KIND_TRAD;
+        %tmp.12 = getv function %tmp.8 :equals;
+        %tmp.13 = invoke %tmp.8 %tmp.12 (%tmp.11);
+        bt %tmp.13 @C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_26_12_27_33_switchCase;
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 28 12 ]
+        %tmp.14 = dup %tmp.1;
+        symbol [ LunarCal %tmp.16 28 17 25 ];
+        %tmp.16 = getv ? :LunarCal;
+        symbol [ KIND_TERM %tmp.17 28 26 35 ];
+        %tmp.17 = getv %tmp.16 :KIND_TERM;
+        %tmp.18 = getv function %tmp.14 :equals;
+        %tmp.19 = invoke %tmp.14 %tmp.18 (%tmp.17);
+        bt %tmp.19 @C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_28_12_29_33_switchCase;
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_23_8_30_8_switchStmtDefault:
+        goto @C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_23_8_30_8_defaultCodeBegin;
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_24_12_25_32_switchCase:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 25 16 ]
+        symbol [ COLOR_REG %tmp.21 25 23 32 ];
+        %tmp.21 = getv ? :COLOR_REG;
+        ret %tmp.21;
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_26_12_27_33_switchCase:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 27 16 ]
+        symbol [ COLOR_TRAD %tmp.23 27 23 33 ];
+        %tmp.23 = getv ? :COLOR_TRAD;
+        ret %tmp.23;
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_28_12_29_33_switchCase:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 29 16 ]
+        symbol [ COLOR_TERM %tmp.25 29 23 33 ];
+        %tmp.25 = getv ? :COLOR_TERM;
+        ret %tmp.25;
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_23_8_30_8_defaultCodeBegin:
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_23_8_30_8_switchStmtEnd:
+        pop;
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 31 8 ]
+        symbol [ COLOR_DIM %tmp.27 31 15 24 ];
+        %tmp.27 = getv ? :COLOR_DIM;
+        ret %tmp.27;
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_22_59_32_4_stop:
+    }
+    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 34; @symbol_functiondef = [drawCenter,34,21,31]; @symbol_param<0> = [dc,34,32,34]; @symbol_param<0>_type<0> = [Graphics,34,38,46]; @symbol_param<0>_type<1> = [Dc,34,47,49]; @symbol_param<1> = [x,34,51,52]; @symbol_param<1>_type<0> = [Number,34,56,62]; @symbol_param<2> = [y,34,64,65]; @symbol_param<2>_type<0> = [Number,34,69,75]; @symbol_param<3> = [font,35,32,36]; @symbol_param<3>_type<0> = [Graphics,35,40,48]; @symbol_param<3>_type<1> = [FontType,35,49,57]; @symbol_param<4> = [text,35,59,63]; @symbol_param<4>_type<0> = [String,35,67,73]; @symbol_param<5> = [color,35,75,80]; @symbol_param<5>_type<0> = [Number,35,84,90]; ]
+    private
+    function drawCenter(dc as Graphics.Dc, x as Number, y as Number, font as Graphics.FontType, text as String, color as Number) as Void {
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_35_100_39_4_start:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 36 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 36 8 10 ];
+        symbol [ setColor %tmp.2 36 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = lgetv %color;
+        symbol [ color %tmp.3 36 20 25 ];
+        symbol [ Graphics %tmp.4 36 27 35 ];
+        %tmp.4 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.5 36 36 53 ];
+        %tmp.5 = getv %tmp.4 :COLOR_TRANSPARENT;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.5);
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 37 8 ]
+        %tmp.6 = lgetv %dc;
+        symbol [ dc %tmp.6 37 8 10 ];
+        symbol [ drawText %tmp.7 37 11 19 ];
+        %tmp.7 = getv function %tmp.6 :drawText;
+        %tmp.8 = lgetv %x;
+        symbol [ x %tmp.8 37 20 21 ];
+        %tmp.9 = lgetv %y;
+        symbol [ y %tmp.9 37 23 24 ];
+        %tmp.10 = lgetv %font;
+        symbol [ font %tmp.10 37 26 30 ];
+        %tmp.11 = lgetv %text;
+        symbol [ text %tmp.11 37 32 36 ];
+        symbol [ Graphics %tmp.12 38 20 28 ];
+        %tmp.12 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.13 38 29 48 ];
+        %tmp.13 = getv %tmp.12 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.14 38 51 59 ];
+        %tmp.14 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.15 38 60 80 ];
+        %tmp.15 = getv %tmp.14 :TEXT_JUSTIFY_VCENTER;
+        %tmp.16 = bitor %tmp.13 %tmp.15;
+        invoke %tmp.6 %tmp.7(%tmp.8, %tmp.9, %tmp.10, %tmp.11, %tmp.16);
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_35_100_39_4_stop:
+    }
+    [ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 41; @symbol_functiondef = [onUpdate,41,20,28]; @symbol_param<0> = [dc,41,29,31]; @symbol_param<0>_type<0> = [Graphics,41,35,43]; @symbol_param<0>_type<1> = [Dc,41,44,46]; ]
+    public
+    function onUpdate(dc as Graphics.Dc) as Void {
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_start:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 42 8 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_stop" ]
+        %w.1 = local;
+        symbol [ w %w.1 42 12 13 ];
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 42 16 18 ];
+        symbol [ getWidth %tmp.2 42 19 27 ];
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %w.1 %tmp.3;
+        symbol [ w %w.1 42 12 13 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 43 8 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_stop" ]
+        %h.2 = local;
+        symbol [ h %h.2 43 12 13 ];
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 43 16 18 ];
+        symbol [ getHeight %tmp.5 43 19 28 ];
+        %tmp.5 = getv function %tmp.4 :getHeight;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %h.2 %tmp.6;
+        symbol [ h %h.2 43 12 13 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 45 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 45 8 10 ];
+        symbol [ setColor %tmp.8 45 11 19 ];
+        %tmp.8 = getv function %tmp.7 :setColor;
+        symbol [ COLOR_BG %tmp.10 45 20 28 ];
+        %tmp.10 = getv ? :COLOR_BG;
+        symbol [ COLOR_BG %tmp.12 45 30 38 ];
+        %tmp.12 = getv ? :COLOR_BG;
+        invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12);
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 46 8 ]
+        %tmp.13 = lgetv %dc;
+        symbol [ dc %tmp.13 46 8 10 ];
+        symbol [ clear %tmp.14 46 11 16 ];
+        %tmp.14 = getv function %tmp.13 :clear;
+        invoke %tmp.13 %tmp.14();
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 48 8 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_stop" ]
+        %info.3 = local;
+        symbol [ info %info.3 48 12 16 ];
+        symbol [ Time %tmp.15 48 19 23 ];
+        %tmp.15 = getm $.Toybox.Time;
+        symbol [ Gregorian %tmp.16 48 24 33 ];
+        %tmp.16 = getv %tmp.15 :Gregorian;
+        symbol [ info %tmp.17 48 34 38 ];
+        %tmp.17 = getv function %tmp.16 :info;
+        symbol [ Time %tmp.18 48 39 43 ];
+        %tmp.18 = getm $.Toybox.Time;
+        symbol [ now %tmp.19 48 44 47 ];
+        %tmp.19 = getv function %tmp.18 :now;
+        %tmp.20 = invoke %tmp.18 %tmp.19();
+        symbol [ Time %tmp.21 48 51 55 ];
+        %tmp.21 = getm $.Toybox.Time;
+        symbol [ FORMAT_SHORT %tmp.22 48 56 68 ];
+        %tmp.22 = getv %tmp.21 :FORMAT_SHORT;
+        %tmp.23 = invoke %tmp.16 %tmp.17(%tmp.20, %tmp.22);
+        lputv %info.3 %tmp.23;
+        symbol [ info %info.3 48 12 16 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 49 8 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_stop" ]
+        %y.4 = local;
+        symbol [ y %y.4 49 12 13 ];
+        %tmp.24 = lgetv %info.3;
+        symbol [ info %tmp.24 49 16 20 ];
+        symbol [ year %tmp.25 49 21 25 ];
+        %tmp.25 = getv %tmp.24 :year;
+        %tmp.26 = as %tmp.25 Number;
+        symbol [ Number %tmp.26 49 29 35 ];
+        lputv %y.4 %tmp.26;
+        symbol [ y %y.4 49 12 13 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 50 8 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_stop" ]
+        %m.5 = local;
+        symbol [ m %m.5 50 12 13 ];
+        %tmp.27 = lgetv %info.3;
+        symbol [ info %tmp.27 50 16 20 ];
+        symbol [ month %tmp.28 50 21 26 ];
+        %tmp.28 = getv %tmp.27 :month;
+        %tmp.29 = as %tmp.28 Number;
+        symbol [ Number %tmp.29 50 30 36 ];
+        lputv %m.5 %tmp.29;
+        symbol [ m %m.5 50 12 13 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 51 8 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_stop" ]
+        %d.6 = local;
+        symbol [ d %d.6 51 12 13 ];
+        %tmp.30 = lgetv %info.3;
+        symbol [ info %tmp.30 51 16 20 ];
+        symbol [ day %tmp.31 51 21 24 ];
+        %tmp.31 = getv %tmp.30 :day;
+        %tmp.32 = as %tmp.31 Number;
+        symbol [ Number %tmp.32 51 28 34 ];
+        lputv %d.6 %tmp.32;
+        symbol [ d %d.6 51 12 13 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 52 8 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_stop" ]
+        %todayDay.7 = local;
+        symbol [ todayDay %todayDay.7 52 12 20 ];
+        symbol [ LunarCal %tmp.34 52 23 31 ];
+        %tmp.34 = getv ? :LunarCal;
+        symbol [ ymdToDay %tmp.35 52 32 40 ];
+        %tmp.35 = getv function %tmp.34 :ymdToDay;
+        %tmp.36 = lgetv %y.4;
+        symbol [ y %tmp.36 52 41 42 ];
+        %tmp.37 = lgetv %m.5;
+        symbol [ m %tmp.37 52 44 45 ];
+        %tmp.38 = lgetv %d.6;
+        symbol [ d %tmp.38 52 47 48 ];
+        %tmp.39 = invoke %tmp.34 %tmp.35(%tmp.36, %tmp.37, %tmp.38);
+        lputv %todayDay.7 %tmp.39;
+        symbol [ todayDay %todayDay.7 52 12 20 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 53 8 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_stop" ]
+        %dow.8 = local;
+        symbol [ dow %dow.8 53 12 15 ];
+        symbol [ LunarCal %tmp.41 53 18 26 ];
+        %tmp.41 = getv ? :LunarCal;
+        symbol [ weekdayOf %tmp.42 53 27 36 ];
+        %tmp.42 = getv function %tmp.41 :weekdayOf;
+        %tmp.43 = lgetv %todayDay.7;
+        symbol [ todayDay %tmp.43 53 37 45 ];
+        %tmp.44 = invoke %tmp.41 %tmp.42(%tmp.43);
+        lputv %dow.8 %tmp.44;
+        symbol [ dow %dow.8 53 12 15 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 55 8 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_stop" ]
+        %dateText.9 = local;
+        symbol [ dateText %dateText.9 55 12 20 ];
+        %tmp.45 = lgetv %m.5;
+        symbol [ m %tmp.45 55 23 24 ];
+        symbol [ toString %tmp.46 55 25 33 ];
+        %tmp.46 = getv function %tmp.45 :toString;
+        %tmp.47 = invoke %tmp.45 %tmp.46();
+        %tmp.48 = "月";
+        %tmp.49 = add %tmp.47 %tmp.48;
+        %tmp.50 = lgetv %d.6;
+        symbol [ d %tmp.50 55 44 45 ];
+        symbol [ toString %tmp.51 55 46 54 ];
+        %tmp.51 = getv function %tmp.50 :toString;
+        %tmp.52 = invoke %tmp.50 %tmp.51();
+        %tmp.53 = add %tmp.49 %tmp.52;
+        %tmp.54 = "日 周";
+        %tmp.55 = add %tmp.53 %tmp.54;
+        symbol [ LunarCal %tmp.57 56 24 32 ];
+        %tmp.57 = getv ? :LunarCal;
+        symbol [ WEEKDAY_NAMES %tmp.58 56 33 46 ];
+        %tmp.58 = getv %tmp.57 :WEEKDAY_NAMES;
+        %tmp.59 = lgetv %dow.8;
+        symbol [ dow %tmp.59 56 47 50 ];
+        %tmp.60 = agetv %tmp.58 %tmp.59;
+        %tmp.61 = as %tmp.60 String;
+        symbol [ String %tmp.61 56 55 61 ];
+        %tmp.62 = add %tmp.55 %tmp.61;
+        lputv %dateText.9 %tmp.62;
+        symbol [ dateText %dateText.9 55 12 20 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 57 8 ]
+        %tmp.63 = self;
+        symbol [ drawCenter %tmp.64 57 8 18 ];
+        %tmp.64 = getv function %tmp.63 :drawCenter;
+        %tmp.65 = lgetv %dc;
+        symbol [ dc %tmp.65 57 19 21 ];
+        %tmp.66 = lgetv %w.1;
+        symbol [ w %tmp.66 57 23 24 ];
+        %tmp.67 = 2;
+        %tmp.68 = div %tmp.66 %tmp.67;
+        %tmp.69 = lgetv %h.2;
+        symbol [ h %tmp.69 57 30 31 ];
+        %tmp.70 = 26;
+        %tmp.71 = mul %tmp.69 %tmp.70;
+        %tmp.72 = 100;
+        %tmp.73 = div %tmp.71 %tmp.72;
+        symbol [ Graphics %tmp.74 57 44 52 ];
+        %tmp.74 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.75 57 53 63 ];
+        %tmp.75 = getv %tmp.74 :FONT_SMALL;
+        %tmp.76 = lgetv %dateText.9;
+        symbol [ dateText %tmp.76 57 65 73 ];
+        symbol [ COLOR_FG %tmp.78 57 75 83 ];
+        %tmp.78 = getv ? :COLOR_FG;
+        invoke %tmp.63 %tmp.64(%tmp.65, %tmp.68, %tmp.73, %tmp.75, %tmp.76, %tmp.78);
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 59 8 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_stop" ]
+        %lunar.10 = local;
+        symbol [ lunar %lunar.10 59 12 17 ];
+        symbol [ LunarCal %tmp.80 59 20 28 ];
+        %tmp.80 = getv ? :LunarCal;
+        symbol [ solarToLunar %tmp.81 59 29 41 ];
+        %tmp.81 = getv function %tmp.80 :solarToLunar;
+        %tmp.82 = lgetv %todayDay.7;
+        symbol [ todayDay %tmp.82 59 42 50 ];
+        %tmp.83 = invoke %tmp.80 %tmp.81(%tmp.82);
+        lputv %lunar.10 %tmp.83;
+        symbol [ lunar %lunar.10 59 12 17 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 60 8 ]
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_8_69_8_if_stmt:
+        %tmp.84 = lgetv %lunar.10;
+        symbol [ lunar %tmp.84 60 12 17 ];
+        %tmp.85 = null;
+        %tmp.86 = ne %tmp.84 %tmp.85;
+        bf %tmp.86 @C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_8_69_8_if_end;
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_8_69_8_if_true:
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_27_69_8_start:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 61 12 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_27_69_8_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_27_69_8_stop" ]
+        %ly.11 = local;
+        symbol [ ly %ly.11 61 16 18 ];
+        %tmp.87 = lgetv %lunar.10;
+        symbol [ lunar %tmp.87 61 21 26 ];
+        %tmp.88 = as %tmp.87 { (!Null) };
+        %tmp.89 = 0;
+        %tmp.90 = agetv %tmp.88 %tmp.89;
+        %tmp.91 = as %tmp.90 Number;
+        symbol [ Number %tmp.91 61 33 39 ];
+        lputv %ly.11 %tmp.91;
+        symbol [ ly %ly.11 61 16 18 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 62 12 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_27_69_8_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_27_69_8_stop" ]
+        %lm.12 = local;
+        symbol [ lm %lm.12 62 16 18 ];
+        %tmp.92 = lgetv %lunar.10;
+        symbol [ lunar %tmp.92 62 21 26 ];
+        %tmp.93 = as %tmp.92 { (!Null) };
+        %tmp.94 = 1;
+        %tmp.95 = agetv %tmp.93 %tmp.94;
+        %tmp.96 = as %tmp.95 Number;
+        symbol [ Number %tmp.96 62 33 39 ];
+        lputv %lm.12 %tmp.96;
+        symbol [ lm %lm.12 62 16 18 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 63 12 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_27_69_8_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_27_69_8_stop" ]
+        %ld.13 = local;
+        symbol [ ld %ld.13 63 16 18 ];
+        %tmp.97 = lgetv %lunar.10;
+        symbol [ lunar %tmp.97 63 21 26 ];
+        %tmp.98 = as %tmp.97 { (!Null) };
+        %tmp.99 = 2;
+        %tmp.100 = agetv %tmp.98 %tmp.99;
+        %tmp.101 = as %tmp.100 Number;
+        symbol [ Number %tmp.101 63 33 39 ];
+        lputv %ld.13 %tmp.101;
+        symbol [ ld %ld.13 63 16 18 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 64 12 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_27_69_8_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_27_69_8_stop" ]
+        %inLeap.14 = local;
+        symbol [ inLeap %inLeap.14 64 16 22 ];
+        %tmp.102 = lgetv %lunar.10;
+        symbol [ lunar %tmp.102 64 25 30 ];
+        %tmp.103 = as %tmp.102 { (!Null) };
+        %tmp.104 = 3;
+        %tmp.105 = agetv %tmp.103 %tmp.104;
+        %tmp.106 = as %tmp.105 Boolean;
+        symbol [ Boolean %tmp.106 64 37 44 ];
+        lputv %inLeap.14 %tmp.106;
+        symbol [ inLeap %inLeap.14 64 16 22 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 65 12 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_27_69_8_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_27_69_8_stop" ]
+        %lunarText.15 = local;
+        symbol [ lunarText %lunarText.15 65 16 25 ];
+        symbol [ LunarCal %tmp.108 65 28 36 ];
+        %tmp.108 = getv ? :LunarCal;
+        symbol [ ganzhiYear %tmp.109 65 37 47 ];
+        %tmp.109 = getv function %tmp.108 :ganzhiYear;
+        %tmp.110 = lgetv %ly.11;
+        symbol [ ly %tmp.110 65 48 50 ];
+        %tmp.111 = invoke %tmp.108 %tmp.109(%tmp.110);
+        %tmp.112 = "年 ";
+        %tmp.113 = add %tmp.111 %tmp.112;
+        symbol [ LunarCal %tmp.115 66 28 36 ];
+        %tmp.115 = getv ? :LunarCal;
+        symbol [ lunarMonthName %tmp.116 66 37 51 ];
+        %tmp.116 = getv function %tmp.115 :lunarMonthName;
+        %tmp.117 = lgetv %lm.12;
+        symbol [ lm %tmp.117 66 52 54 ];
+        %tmp.118 = lgetv %inLeap.14;
+        symbol [ inLeap %tmp.118 66 56 62 ];
+        %tmp.119 = invoke %tmp.115 %tmp.116(%tmp.117, %tmp.118);
+        %tmp.120 = add %tmp.113 %tmp.119;
+        symbol [ LunarCal %tmp.122 67 28 36 ];
+        %tmp.122 = getv ? :LunarCal;
+        symbol [ lunarDayName %tmp.123 67 37 49 ];
+        %tmp.123 = getv function %tmp.122 :lunarDayName;
+        %tmp.124 = lgetv %ld.13;
+        symbol [ ld %tmp.124 67 50 52 ];
+        %tmp.125 = invoke %tmp.122 %tmp.123(%tmp.124);
+        %tmp.126 = add %tmp.120 %tmp.125;
+        lputv %lunarText.15 %tmp.126;
+        symbol [ lunarText %lunarText.15 65 16 25 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 68 12 ]
+        %tmp.127 = self;
+        symbol [ drawCenter %tmp.128 68 12 22 ];
+        %tmp.128 = getv function %tmp.127 :drawCenter;
+        %tmp.129 = lgetv %dc;
+        symbol [ dc %tmp.129 68 23 25 ];
+        %tmp.130 = lgetv %w.1;
+        symbol [ w %tmp.130 68 27 28 ];
+        %tmp.131 = 2;
+        %tmp.132 = div %tmp.130 %tmp.131;
+        %tmp.133 = lgetv %h.2;
+        symbol [ h %tmp.133 68 34 35 ];
+        %tmp.134 = 54;
+        %tmp.135 = mul %tmp.133 %tmp.134;
+        %tmp.136 = 100;
+        %tmp.137 = div %tmp.135 %tmp.136;
+        symbol [ Graphics %tmp.138 68 48 56 ];
+        %tmp.138 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.139 68 57 67 ];
+        %tmp.139 = getv %tmp.138 :FONT_XTINY;
+        %tmp.140 = lgetv %lunarText.15;
+        symbol [ lunarText %tmp.140 68 69 78 ];
+        symbol [ COLOR_LUNAR %tmp.142 68 80 91 ];
+        %tmp.142 = getv ? :COLOR_LUNAR;
+        invoke %tmp.127 %tmp.128(%tmp.129, %tmp.132, %tmp.137, %tmp.139, %tmp.140, %tmp.142);
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_27_69_8_stop:
+        goto @C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_8_69_8_if_end;
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_60_8_69_8_if_end:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 71 8 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_stop" ]
+        %ev.16 = local;
+        symbol [ ev %ev.16 71 12 14 ];
+        symbol [ LunarCal %tmp.144 71 17 25 ];
+        %tmp.144 = getv ? :LunarCal;
+        symbol [ nearestEvent %tmp.145 71 26 38 ];
+        %tmp.145 = getv function %tmp.144 :nearestEvent;
+        %tmp.146 = lgetv %todayDay.7;
+        symbol [ todayDay %tmp.146 71 39 47 ];
+        %tmp.147 = invoke %tmp.144 %tmp.145(%tmp.146);
+        lputv %ev.16 %tmp.147;
+        symbol [ ev %ev.16 71 12 14 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 72 8 ]
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_72_8_85_8_if_stmt:
+        %tmp.148 = lgetv %ev.16;
+        symbol [ ev %tmp.148 72 12 14 ];
+        %tmp.149 = null;
+        %tmp.150 = ne %tmp.148 %tmp.149;
+        bf %tmp.150 @C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_72_8_85_8_if_end;
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_72_8_85_8_if_true:
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_72_24_85_8_start:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 73 12 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_72_24_85_8_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_72_24_85_8_stop" ]
+        %name.17 = local;
+        symbol [ name %name.17 73 16 20 ];
+        %tmp.151 = lgetv %ev.16;
+        symbol [ ev %tmp.151 73 23 25 ];
+        %tmp.152 = as %tmp.151 { (!Null) };
+        %tmp.153 = 0;
+        %tmp.154 = agetv %tmp.152 %tmp.153;
+        %tmp.155 = as %tmp.154 String;
+        symbol [ String %tmp.155 73 32 38 ];
+        lputv %name.17 %tmp.155;
+        symbol [ name %name.17 73 16 20 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 74 12 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_72_24_85_8_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_72_24_85_8_stop" ]
+        %kind.18 = local;
+        symbol [ kind %kind.18 74 16 20 ];
+        %tmp.156 = lgetv %ev.16;
+        symbol [ ev %tmp.156 74 23 25 ];
+        %tmp.157 = as %tmp.156 { (!Null) };
+        %tmp.158 = 2;
+        %tmp.159 = agetv %tmp.157 %tmp.158;
+        %tmp.160 = as %tmp.159 Number;
+        symbol [ Number %tmp.160 74 32 38 ];
+        lputv %kind.18 %tmp.160;
+        symbol [ kind %kind.18 74 16 20 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 75 12 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_72_24_85_8_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_72_24_85_8_stop" ]
+        %diff.19 = local;
+        symbol [ diff %diff.19 75 16 20 ];
+        %tmp.161 = lgetv %ev.16;
+        symbol [ ev %tmp.161 75 23 25 ];
+        %tmp.162 = as %tmp.161 { (!Null) };
+        %tmp.163 = 3;
+        %tmp.164 = agetv %tmp.162 %tmp.163;
+        %tmp.165 = as %tmp.164 Number;
+        symbol [ Number %tmp.165 75 32 38 ];
+        lputv %diff.19 %tmp.165;
+        symbol [ diff %diff.19 75 16 20 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 76 12 ]
+        [ "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_72_24_85_8_start" "C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_72_24_85_8_stop" ]
+        %text.20 = local;
+        symbol [ text %text.20 76 16 20 ];
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 77 12 ]
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_77_12_83_12_if_stmt:
+        %tmp.166 = lgetv %diff.19;
+        symbol [ diff %tmp.166 77 16 20 ];
+        %tmp.167 = 0;
+        %tmp.168 = eq %tmp.166 %tmp.167;
+        bf %tmp.168 @C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_77_12_83_12_if_false;
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_77_12_83_12_if_true:
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_77_27_79_12_start:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 78 16 ]
+        %tmp.169 = "今日 ";
+        %tmp.170 = lgetv %name.17;
+        symbol [ name %tmp.170 78 31 35 ];
+        %tmp.171 = add %tmp.169 %tmp.170;
+        lputv %text.20 %tmp.171;
+        symbol [ text %text.20 78 16 20 ];
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_77_27_79_12_stop:
+        goto @C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_77_12_83_12_if_end;
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_77_12_83_12_if_false:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 79 19 ]
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_79_19_83_12_if_stmt:
+        %tmp.172 = lgetv %diff.19;
+        symbol [ diff %tmp.172 79 23 27 ];
+        %tmp.173 = 0;
+        %tmp.174 = gt %tmp.172 %tmp.173;
+        bf %tmp.174 @C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_79_19_83_12_if_else_false;
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_79_19_83_12_if_true:
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_79_33_81_12_start:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 80 16 ]
+        %tmp.175 = "距";
+        %tmp.176 = lgetv %name.17;
+        symbol [ name %tmp.176 80 29 33 ];
+        %tmp.177 = add %tmp.175 %tmp.176;
+        %tmp.178 = " ";
+        %tmp.179 = add %tmp.177 %tmp.178;
+        %tmp.180 = lgetv %diff.19;
+        symbol [ diff %tmp.180 80 42 46 ];
+        symbol [ toString %tmp.181 80 47 55 ];
+        %tmp.181 = getv function %tmp.180 :toString;
+        %tmp.182 = invoke %tmp.180 %tmp.181();
+        %tmp.183 = add %tmp.179 %tmp.182;
+        %tmp.184 = "天";
+        %tmp.185 = add %tmp.183 %tmp.184;
+        lputv %text.20 %tmp.185;
+        symbol [ text %text.20 80 16 20 ];
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_79_33_81_12_stop:
+        goto @C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_79_19_83_12_if_end;
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_79_19_83_12_if_else_false:
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_81_19_83_12_start:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 82 16 ]
+        %tmp.186 = "已过";
+        %tmp.187 = lgetv %name.17;
+        symbol [ name %tmp.187 82 30 34 ];
+        %tmp.188 = add %tmp.186 %tmp.187;
+        %tmp.189 = " ";
+        %tmp.190 = add %tmp.188 %tmp.189;
+        %tmp.191 = lgetv %diff.19;
+        symbol [ diff %tmp.191 82 45 49 ];
+        %tmp.192 = sub 0 %tmp.191;
+        symbol [ toString %tmp.193 82 51 59 ];
+        %tmp.193 = getv function %tmp.192 :toString;
+        %tmp.194 = invoke %tmp.192 %tmp.193();
+        %tmp.195 = add %tmp.190 %tmp.194;
+        %tmp.196 = "天";
+        %tmp.197 = add %tmp.195 %tmp.196;
+        lputv %text.20 %tmp.197;
+        symbol [ text %text.20 82 16 20 ];
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_81_19_83_12_stop:
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_79_19_83_12_if_end:
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_77_12_83_12_if_end:
+[ "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc" 84 12 ]
+        %tmp.198 = self;
+        symbol [ drawCenter %tmp.199 84 12 22 ];
+        %tmp.199 = getv function %tmp.198 :drawCenter;
+        %tmp.200 = lgetv %dc;
+        symbol [ dc %tmp.200 84 23 25 ];
+        %tmp.201 = lgetv %w.1;
+        symbol [ w %tmp.201 84 27 28 ];
+        %tmp.202 = 2;
+        %tmp.203 = div %tmp.201 %tmp.202;
+        %tmp.204 = lgetv %h.2;
+        symbol [ h %tmp.204 84 34 35 ];
+        %tmp.205 = 80;
+        %tmp.206 = mul %tmp.204 %tmp.205;
+        %tmp.207 = 100;
+        %tmp.208 = div %tmp.206 %tmp.207;
+        symbol [ Graphics %tmp.209 84 48 56 ];
+        %tmp.209 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.210 84 57 67 ];
+        %tmp.210 = getv %tmp.209 :FONT_XTINY;
+        %tmp.211 = lgetv %text.20;
+        symbol [ text %tmp.211 84 69 73 ];
+        %tmp.212 = self;
+        symbol [ colorOfKind %tmp.213 84 75 86 ];
+        %tmp.213 = getv function %tmp.212 :colorOfKind;
+        %tmp.214 = lgetv %kind.18;
+        symbol [ kind %tmp.214 84 87 91 ];
+        %tmp.215 = invoke %tmp.212 %tmp.213(%tmp.214);
+        invoke %tmp.198 %tmp.199(%tmp.200, %tmp.203, %tmp.208, %tmp.210, %tmp.211, %tmp.215);
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_72_24_85_8_stop:
+        goto @C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_72_8_85_8_if_end;
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_72_8_85_8_if_end:
+C__Users_wolfa_Desktop_LunarCalendar_source_GlanceView_mc_41_56_86_4_stop:
+    }
+}
+[ @file = "C:\Users\wolfa\Desktop\LunarCalendar\source\GlanceView.mc"; @line = 1; ]
+<init> {
+}

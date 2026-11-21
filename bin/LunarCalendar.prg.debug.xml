@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\wolfa\Desktop\LunarCalendar\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\WanNianLiApp.mc" id="1" lineNum="6" parent="globals/WanNianLiApp" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="2" lineNum="8" parent="globals/GlanceView" pc="268435472" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\WanNianLiApp.mc" id="3" lineNum="12" parent="globals/WanNianLiApp" pc="268435484" symbol="onStart"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\WanNianLiApp.mc" id="4" lineNum="18" parent="globals/WanNianLiApp" pc="268435487" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\WanNianLiApp.mc" id="4" lineNum="19" parent="globals/WanNianLiApp" pc="268435490" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\WanNianLiApp.mc" id="4" lineNum="20" parent="globals/WanNianLiApp" pc="268435510" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\WanNianLiApp.mc" id="5" lineNum="8" parent="globals/WanNianLiApp" pc="268435543" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\WanNianLiApp.mc" id="5" lineNum="9" parent="globals/WanNianLiApp" pc="268435545" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\WanNianLiApp.mc" id="6" lineNum="23" parent="globals/WanNianLiApp" pc="268435558" symbol="getGlanceView"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\WanNianLiApp.mc" id="6" lineNum="25" parent="globals/WanNianLiApp" pc="268435560" symbol="getGlanceView"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\WanNianLiApp.mc" id="7" lineNum="15" parent="globals/WanNianLiApp" pc="268435586" symbol="onStop"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="8" lineNum="162" parent="globals/LunarCal" pc="268435589" symbol="lunarDayName"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="8" lineNum="163" parent="globals/LunarCal" pc="268435599" symbol="lunarDayName"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="9" lineNum="308" parent="globals/LunarCal" pc="268435611" symbol="eventOfDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="9" lineNum="309" parent="globals/LunarCal" pc="268435622" symbol="eventOfDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="9" lineNum="310" parent="globals/LunarCal" pc="268435634" symbol="eventOfDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="9" lineNum="311" parent="globals/LunarCal" pc="268435640" symbol="eventOfDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="9" lineNum="312" parent="globals/LunarCal" pc="268435647" symbol="eventOfDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="9" lineNum="313" parent="globals/LunarCal" pc="268435654" symbol="eventOfDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="10" lineNum="318" parent="globals/LunarCal" pc="268435679" symbol="nearestEvent"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="10" lineNum="319" parent="globals/LunarCal" pc="268435690" symbol="nearestEvent"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="10" lineNum="320" parent="globals/LunarCal" pc="268435701" symbol="nearestEvent"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="10" lineNum="321" parent="globals/LunarCal" pc="268435708" symbol="nearestEvent"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="10" lineNum="322" parent="globals/LunarCal" pc="268435720" symbol="nearestEvent"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="10" lineNum="323" parent="globals/LunarCal" pc="268435726" symbol="nearestEvent"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="10" lineNum="325" parent="globals/LunarCal" pc="268435759" symbol="nearestEvent"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="10" lineNum="327" parent="globals/LunarCal" pc="268435765" symbol="nearestEvent"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="10" lineNum="328" parent="globals/LunarCal" pc="268435780" symbol="nearestEvent"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="10" lineNum="329" parent="globals/LunarCal" pc="268435786" symbol="nearestEvent"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="10" lineNum="331" parent="globals/LunarCal" pc="268435822" symbol="nearestEvent"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="10" lineNum="332" parent="globals/LunarCal" pc="268435837" symbol="nearestEvent"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="10" lineNum="333" parent="globals/LunarCal" pc="268435843" symbol="nearestEvent"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="10" lineNum="336" parent="globals/LunarCal" pc="268435891" symbol="nearestEvent"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="217" parent="globals/LunarCal" pc="268435893" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="219" parent="globals/LunarCal" pc="268435903" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="220" parent="globals/LunarCal" pc="268435908" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="222" parent="globals/LunarCal" pc="268435913" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="223" parent="globals/LunarCal" pc="268435915" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="231" parent="globals/LunarCal" pc="268435931" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="236" parent="globals/LunarCal" pc="268435947" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="241" parent="globals/LunarCal" pc="268435963" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="249" parent="globals/LunarCal" pc="268435979" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="254" parent="globals/LunarCal" pc="268435995" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="259" parent="globals/LunarCal" pc="268436011" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="224" parent="globals/LunarCal" pc="268436030" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="225" parent="globals/LunarCal" pc="268436038" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="227" parent="globals/LunarCal" pc="268436047" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="228" parent="globals/LunarCal" pc="268436055" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="230" parent="globals/LunarCal" pc="268436064" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="232" parent="globals/LunarCal" pc="268436067" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="233" parent="globals/LunarCal" pc="268436075" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="235" parent="globals/LunarCal" pc="268436084" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="237" parent="globals/LunarCal" pc="268436087" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="238" parent="globals/LunarCal" pc="268436095" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="240" parent="globals/LunarCal" pc="268436104" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="242" parent="globals/LunarCal" pc="268436107" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="243" parent="globals/LunarCal" pc="268436115" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="245" parent="globals/LunarCal" pc="268436124" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="246" parent="globals/LunarCal" pc="268436132" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="248" parent="globals/LunarCal" pc="268436141" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="250" parent="globals/LunarCal" pc="268436144" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="251" parent="globals/LunarCal" pc="268436152" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="253" parent="globals/LunarCal" pc="268436161" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="255" parent="globals/LunarCal" pc="268436164" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="256" parent="globals/LunarCal" pc="268436172" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="258" parent="globals/LunarCal" pc="268436181" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="260" parent="globals/LunarCal" pc="268436184" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="261" parent="globals/LunarCal" pc="268436192" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="263" parent="globals/LunarCal" pc="268436201" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="264" parent="globals/LunarCal" pc="268436209" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="266" parent="globals/LunarCal" pc="268436218" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="267" parent="globals/LunarCal" pc="268436226" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="269" parent="globals/LunarCal" pc="268436235" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="11" lineNum="271" parent="globals/LunarCal" pc="268436239" symbol="lunarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="12" lineNum="274" parent="globals/LunarCal" pc="268436241" symbol="termFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="12" lineNum="275" parent="globals/LunarCal" pc="268436252" symbol="termFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="12" lineNum="276" parent="globals/LunarCal" pc="268436268" symbol="termFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="12" lineNum="277" parent="globals/LunarCal" pc="268436274" symbol="termFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="12" lineNum="279" parent="globals/LunarCal" pc="268436279" symbol="termFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="12" lineNum="280" parent="globals/LunarCal" pc="268436296" symbol="termFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="12" lineNum="282" parent="globals/LunarCal" pc="268436305" symbol="termFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="13" lineNum="157" parent="globals/LunarCal" pc="268436322" symbol="lunarMonthName"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="13" lineNum="158" parent="globals/LunarCal" pc="268436333" symbol="lunarMonthName"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="13" lineNum="159" parent="globals/LunarCal" pc="268436346" symbol="lunarMonthName"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="14" lineNum="167" parent="globals/LunarCal" pc="268436365" symbol="ganzhiYear"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="14" lineNum="168" parent="globals/LunarCal" pc="268436376" symbol="ganzhiYear"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="14" lineNum="169" parent="globals/LunarCal" pc="268436386" symbol="ganzhiYear"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="14" lineNum="170" parent="globals/LunarCal" pc="268436393" symbol="ganzhiYear"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="14" lineNum="172" parent="globals/LunarCal" pc="268436403" symbol="ganzhiYear"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="15" lineNum="51" parent="globals/LunarCal" pc="268436427" symbol="ymdToDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="15" lineNum="52" parent="globals/LunarCal" pc="268436438" symbol="ymdToDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="15" lineNum="53" parent="globals/LunarCal" pc="268436458" symbol="ymdToDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="15" lineNum="54" parent="globals/LunarCal" pc="268436473" symbol="ymdToDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="15" lineNum="55" parent="globals/LunarCal" pc="268436484" symbol="ymdToDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="15" lineNum="56" parent="globals/LunarCal" pc="268436507" symbol="ymdToDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="15" lineNum="57" parent="globals/LunarCal" pc="268436534" symbol="ymdToDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="15" lineNum="58" parent="globals/LunarCal" pc="268436571" symbol="ymdToDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="16" lineNum="191" parent="globals/LunarCal" pc="268436587" symbol="termName"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="16" lineNum="192" parent="globals/LunarCal" pc="268436597" symbol="termName"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="16" lineNum="193" parent="globals/LunarCal" pc="268436616" symbol="termName"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="16" lineNum="195" parent="globals/LunarCal" pc="268436634" symbol="termName"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="16" lineNum="196" parent="globals/LunarCal" pc="268436654" symbol="termName"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="16" lineNum="198" parent="globals/LunarCal" pc="268436675" symbol="termName"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="17" lineNum="77" parent="globals/LunarCal" pc="268436677" symbol="weekdayOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="17" lineNum="78" parent="globals/LunarCal" pc="268436688" symbol="weekdayOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="17" lineNum="79" parent="globals/LunarCal" pc="268436698" symbol="weekdayOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="18" lineNum="84" parent="globals/LunarCal" pc="268436716" symbol="lunarInfo"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="18" lineNum="85" parent="globals/LunarCal" pc="268436726" symbol="lunarInfo"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="286" parent="globals/LunarCal" pc="268436743" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="287" parent="globals/LunarCal" pc="268436754" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="288" parent="globals/LunarCal" pc="268436768" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="289" parent="globals/LunarCal" pc="268436774" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="291" parent="globals/LunarCal" pc="268436780" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="292" parent="globals/LunarCal" pc="268436786" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="293" parent="globals/LunarCal" pc="268436792" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="294" parent="globals/LunarCal" pc="268436799" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="295" parent="globals/LunarCal" pc="268436806" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="296" parent="globals/LunarCal" pc="268436813" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="297" parent="globals/LunarCal" pc="268436817" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="298" parent="globals/LunarCal" pc="268436825" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="300" parent="globals/LunarCal" pc="268436842" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="301" parent="globals/LunarCal" pc="268436860" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="302" parent="globals/LunarCal" pc="268436866" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="19" lineNum="305" parent="globals/LunarCal" pc="268436875" symbol="eventOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="20" lineNum="62" parent="globals/LunarCal" pc="268436890" symbol="dayToYmd"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="20" lineNum="63" parent="globals/LunarCal" pc="268436901" symbol="dayToYmd"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="20" lineNum="64" parent="globals/LunarCal" pc="268436910" symbol="dayToYmd"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="20" lineNum="65" parent="globals/LunarCal" pc="268436926" symbol="dayToYmd"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="20" lineNum="66" parent="globals/LunarCal" pc="268436938" symbol="dayToYmd"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="20" lineNum="67" parent="globals/LunarCal" pc="268436997" symbol="dayToYmd"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="20" lineNum="68" parent="globals/LunarCal" pc="268437008" symbol="dayToYmd"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="20" lineNum="69" parent="globals/LunarCal" pc="268437045" symbol="dayToYmd"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="20" lineNum="70" parent="globals/LunarCal" pc="268437066" symbol="dayToYmd"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="20" lineNum="71" parent="globals/LunarCal" pc="268437093" symbol="dayToYmd"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="20" lineNum="72" parent="globals/LunarCal" pc="268437116" symbol="dayToYmd"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="20" lineNum="73" parent="globals/LunarCal" pc="268437136" symbol="dayToYmd"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="21" lineNum="39" parent="globals/LunarCal" pc="268437156" symbol="isLeapYear"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="21" lineNum="40" parent="globals/LunarCal" pc="268437166" symbol="isLeapYear"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="22" lineNum="175" parent="globals/LunarCal" pc="268437201" symbol="zodiacOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="22" lineNum="176" parent="globals/LunarCal" pc="268437212" symbol="zodiacOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="22" lineNum="177" parent="globals/LunarCal" pc="268437222" symbol="zodiacOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="22" lineNum="178" parent="globals/LunarCal" pc="268437229" symbol="zodiacOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="22" lineNum="180" parent="globals/LunarCal" pc="268437239" symbol="zodiacOf"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="23" lineNum="43" parent="globals/LunarCal" pc="268437248" symbol="daysInMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="23" lineNum="44" parent="globals/LunarCal" pc="268437258" symbol="daysInMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="23" lineNum="45" parent="globals/LunarCal" pc="268437279" symbol="daysInMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="23" lineNum="47" parent="globals/LunarCal" pc="268437285" symbol="daysInMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="24" lineNum="99" parent="globals/LunarCal" pc="268437297" symbol="lunarMonthDays"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="24" lineNum="100" parent="globals/LunarCal" pc="268437307" symbol="lunarMonthDays"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="25" lineNum="185" parent="globals/LunarCal" pc="268437338" symbol="termDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="25" lineNum="186" parent="globals/LunarCal" pc="268437349" symbol="termDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="25" lineNum="187" parent="globals/LunarCal" pc="268437367" symbol="termDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="25" lineNum="188" parent="globals/LunarCal" pc="268437383" symbol="termDay"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="26" lineNum="35" parent="globals/LunarCal" pc="268437406" symbol="idiv"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="26" lineNum="36" parent="globals/LunarCal" pc="268437416" symbol="idiv"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="27" lineNum="88" parent="globals/LunarCal" pc="268437428" symbol="leapMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="27" lineNum="89" parent="globals/LunarCal" pc="268437438" symbol="leapMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="28" lineNum="92" parent="globals/LunarCal" pc="268437452" symbol="leapDays"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="28" lineNum="93" parent="globals/LunarCal" pc="268437462" symbol="leapDays"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="28" lineNum="94" parent="globals/LunarCal" pc="268437477" symbol="leapDays"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="28" lineNum="96" parent="globals/LunarCal" pc="268437482" symbol="leapDays"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="119" parent="globals/LunarCal" pc="268437510" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="120" parent="globals/LunarCal" pc="268437521" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="121" parent="globals/LunarCal" pc="268437529" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="122" parent="globals/LunarCal" pc="268437536" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="124" parent="globals/LunarCal" pc="268437541" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="125" parent="globals/LunarCal" pc="268437572" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="127" parent="globals/LunarCal" pc="268437577" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="128" parent="globals/LunarCal" pc="268437589" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="129" parent="globals/LunarCal" pc="268437597" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="130" parent="globals/LunarCal" pc="268437611" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="131" parent="globals/LunarCal" pc="268437628" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="132" parent="globals/LunarCal" pc="268437635" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="133" parent="globals/LunarCal" pc="268437639" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="134" parent="globals/LunarCal" pc="268437642" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="136" parent="globals/LunarCal" pc="268437650" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="137" parent="globals/LunarCal" pc="268437655" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="139" parent="globals/LunarCal" pc="268437679" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="141" parent="globals/LunarCal" pc="268437703" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="142" parent="globals/LunarCal" pc="268437711" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="144" parent="globals/LunarCal" pc="268437717" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="145" parent="globals/LunarCal" pc="268437724" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="146" parent="globals/LunarCal" pc="268437729" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="147" parent="globals/LunarCal" pc="268437732" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="148" parent="globals/LunarCal" pc="268437742" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="149" parent="globals/LunarCal" pc="268437757" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="151" parent="globals/LunarCal" pc="268437763" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="29" lineNum="154" parent="globals/LunarCal" pc="268437773" symbol="solarToLunar"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="30" lineNum="104" parent="globals/LunarCal" pc="268437801" symbol="lunarYearIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="30" lineNum="105" parent="globals/LunarCal" pc="268437812" symbol="lunarYearIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="30" lineNum="106" parent="globals/LunarCal" pc="268437815" symbol="lunarYearIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="30" lineNum="107" parent="globals/LunarCal" pc="268437835" symbol="lunarYearIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="30" lineNum="108" parent="globals/LunarCal" pc="268437843" symbol="lunarYearIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="30" lineNum="109" parent="globals/LunarCal" pc="268437863" symbol="lunarYearIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="30" lineNum="110" parent="globals/LunarCal" pc="268437881" symbol="lunarYearIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="30" lineNum="112" parent="globals/LunarCal" pc="268437888" symbol="lunarYearIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="30" lineNum="115" parent="globals/LunarCal" pc="268437898" symbol="lunarYearIndex"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="31" lineNum="204" parent="globals/LunarCal" pc="268437901" symbol="solarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="31" lineNum="205" parent="globals/LunarCal" pc="268437911" symbol="solarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="31" lineNum="206" parent="globals/LunarCal" pc="268437927" symbol="solarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="31" lineNum="208" parent="globals/LunarCal" pc="268437936" symbol="solarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="31" lineNum="209" parent="globals/LunarCal" pc="268437952" symbol="solarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="31" lineNum="211" parent="globals/LunarCal" pc="268437961" symbol="solarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="31" lineNum="212" parent="globals/LunarCal" pc="268437977" symbol="solarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\LunarCal.mc" id="31" lineNum="214" parent="globals/LunarCal" pc="268437986" symbol="solarFestival"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="32" lineNum="34" parent="globals/GlanceView" pc="268437988" symbol="&lt;globals/GlanceView/&lt;&gt;drawCenter&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="32" lineNum="36" parent="globals/GlanceView" pc="268437990" symbol="&lt;globals/GlanceView/&lt;&gt;drawCenter&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="32" lineNum="37" parent="globals/GlanceView" pc="268438004" symbol="&lt;globals/GlanceView/&lt;&gt;drawCenter&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="33" lineNum="18" parent="globals/GlanceView" pc="268438025" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="33" lineNum="19" parent="globals/GlanceView" pc="268438027" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="41" parent="globals/GlanceView" pc="268438040" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="42" parent="globals/GlanceView" pc="268438043" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="43" parent="globals/GlanceView" pc="268438052" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="45" parent="globals/GlanceView" pc="268438061" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="46" parent="globals/GlanceView" pc="268438073" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="48" parent="globals/GlanceView" pc="268438081" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="49" parent="globals/GlanceView" pc="268438106" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="50" parent="globals/GlanceView" pc="268438114" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="51" parent="globals/GlanceView" pc="268438122" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="52" parent="globals/GlanceView" pc="268438130" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="53" parent="globals/GlanceView" pc="268438150" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="55" parent="globals/GlanceView" pc="268438166" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="57" parent="globals/GlanceView" pc="268438208" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="59" parent="globals/GlanceView" pc="268438241" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="60" parent="globals/GlanceView" pc="268438257" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="61" parent="globals/GlanceView" pc="268438263" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="62" parent="globals/GlanceView" pc="268438269" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="63" parent="globals/GlanceView" pc="268438276" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="64" parent="globals/GlanceView" pc="268438283" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="65" parent="globals/GlanceView" pc="268438290" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="68" parent="globals/GlanceView" pc="268438344" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="71" parent="globals/GlanceView" pc="268438379" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="72" parent="globals/GlanceView" pc="268438395" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="73" parent="globals/GlanceView" pc="268438401" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="74" parent="globals/GlanceView" pc="268438407" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="75" parent="globals/GlanceView" pc="268438414" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="77" parent="globals/GlanceView" pc="268438421" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="78" parent="globals/GlanceView" pc="268438428" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="79" parent="globals/GlanceView" pc="268438441" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="80" parent="globals/GlanceView" pc="268438448" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="82" parent="globals/GlanceView" pc="268438481" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="34" lineNum="84" parent="globals/GlanceView" pc="268438514" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="35" lineNum="22" parent="globals/GlanceView" pc="268438555" symbol="&lt;globals/GlanceView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="35" lineNum="23" parent="globals/GlanceView" pc="268438557" symbol="&lt;globals/GlanceView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="35" lineNum="24" parent="globals/GlanceView" pc="268438559" symbol="&lt;globals/GlanceView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="35" lineNum="26" parent="globals/GlanceView" pc="268438575" symbol="&lt;globals/GlanceView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="35" lineNum="28" parent="globals/GlanceView" pc="268438591" symbol="&lt;globals/GlanceView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="35" lineNum="25" parent="globals/GlanceView" pc="268438610" symbol="&lt;globals/GlanceView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="35" lineNum="27" parent="globals/GlanceView" pc="268438616" symbol="&lt;globals/GlanceView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="35" lineNum="29" parent="globals/GlanceView" pc="268438622" symbol="&lt;globals/GlanceView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\GlanceView.mc" id="35" lineNum="31" parent="globals/GlanceView" pc="268438628" symbol="&lt;globals/GlanceView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="36" lineNum="7" parent="globals/CalendarView" pc="268438634" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\wolfa\\Desktop\\LunarCalendar\\bin\\gen\\006-B4532-00\\source\\Rez.mcgen" id="37" lineNum="630" parent="globals/Rez" pc="268438646" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="38" lineNum="212" parent="globals/CalendarDelegate" pc="268438666" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="39" lineNum="81" parent="globals/CalendarView" pc="268438678" symbol="nextMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="39" lineNum="82" parent="globals/CalendarView" pc="268438680" symbol="nextMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="39" lineNum="83" parent="globals/CalendarView" pc="268438691" symbol="nextMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="39" lineNum="84" parent="globals/CalendarView" pc="268438703" symbol="nextMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="39" lineNum="86" parent="globals/CalendarView" pc="268438707" symbol="nextMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="39" lineNum="87" parent="globals/CalendarView" pc="268438722" symbol="nextMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="39" lineNum="89" parent="globals/CalendarView" pc="268438734" symbol="nextMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="39" lineNum="91" parent="globals/CalendarView" pc="268438749" symbol="nextMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="40" lineNum="68" parent="globals/CalendarView" pc="268438761" symbol="prevMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="40" lineNum="69" parent="globals/CalendarView" pc="268438763" symbol="prevMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="40" lineNum="70" parent="globals/CalendarView" pc="268438774" symbol="prevMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="40" lineNum="71" parent="globals/CalendarView" pc="268438786" symbol="prevMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="40" lineNum="73" parent="globals/CalendarView" pc="268438790" symbol="prevMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="40" lineNum="74" parent="globals/CalendarView" pc="268438805" symbol="prevMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="40" lineNum="76" parent="globals/CalendarView" pc="268438817" symbol="prevMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="40" lineNum="78" parent="globals/CalendarView" pc="268438832" symbol="prevMonth"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="41" lineNum="94" parent="globals/CalendarView" pc="268438844" symbol="&lt;globals/CalendarView/&lt;&gt;drawCenter&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="41" lineNum="96" parent="globals/CalendarView" pc="268438846" symbol="&lt;globals/CalendarView/&lt;&gt;drawCenter&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="41" lineNum="97" parent="globals/CalendarView" pc="268438860" symbol="&lt;globals/CalendarView/&lt;&gt;drawCenter&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="42" lineNum="101" parent="globals/CalendarView" pc="268438881" symbol="&lt;globals/CalendarView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="42" lineNum="102" parent="globals/CalendarView" pc="268438883" symbol="&lt;globals/CalendarView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="42" lineNum="103" parent="globals/CalendarView" pc="268438885" symbol="&lt;globals/CalendarView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="42" lineNum="105" parent="globals/CalendarView" pc="268438901" symbol="&lt;globals/CalendarView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="42" lineNum="107" parent="globals/CalendarView" pc="268438917" symbol="&lt;globals/CalendarView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="42" lineNum="104" parent="globals/CalendarView" pc="268438936" symbol="&lt;globals/CalendarView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="42" lineNum="106" parent="globals/CalendarView" pc="268438942" symbol="&lt;globals/CalendarView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="42" lineNum="108" parent="globals/CalendarView" pc="268438948" symbol="&lt;globals/CalendarView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="42" lineNum="110" parent="globals/CalendarView" pc="268438954" symbol="&lt;globals/CalendarView/&lt;&gt;colorOfKind&gt;"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="34" parent="globals/CalendarView" pc="268438960" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="35" parent="globals/CalendarView" pc="268438963" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="36" parent="globals/CalendarView" pc="268438975" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="37" parent="globals/CalendarView" pc="268438987" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="38" parent="globals/CalendarView" pc="268439004" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="39" parent="globals/CalendarView" pc="268439017" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="40" parent="globals/CalendarView" pc="268439030" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="43" parent="globals/CalendarView" pc="268439065" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="44" parent="globals/CalendarView" pc="268439080" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="45" parent="globals/CalendarView" pc="268439087" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="46" parent="globals/CalendarView" pc="268439127" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="47" parent="globals/CalendarView" pc="268439167" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="48" parent="globals/CalendarView" pc="268439207" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="49" parent="globals/CalendarView" pc="268439247" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="51" parent="globals/CalendarView" pc="268439290" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="52" parent="globals/CalendarView" pc="268439299" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="54" parent="globals/CalendarView" pc="268439311" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="55" parent="globals/CalendarView" pc="268439320" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="57" parent="globals/CalendarView" pc="268439331" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="58" parent="globals/CalendarView" pc="268439340" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="60" parent="globals/CalendarView" pc="268439352" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="61" parent="globals/CalendarView" pc="268439361" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="63" parent="globals/CalendarView" pc="268439372" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="43" lineNum="64" parent="globals/CalendarView" pc="268439381" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="113" parent="globals/CalendarView" pc="268439393" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="114" parent="globals/CalendarView" pc="268439396" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="115" parent="globals/CalendarView" pc="268439405" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="117" parent="globals/CalendarView" pc="268439414" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="118" parent="globals/CalendarView" pc="268439426" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="121" parent="globals/CalendarView" pc="268439434" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="124" parent="globals/CalendarView" pc="268439504" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="125" parent="globals/CalendarView" pc="268439530" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="126" parent="globals/CalendarView" pc="268439546" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="127" parent="globals/CalendarView" pc="268439552" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="128" parent="globals/CalendarView" pc="268439558" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="129" parent="globals/CalendarView" pc="268439565" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="130" parent="globals/CalendarView" pc="268439572" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="132" parent="globals/CalendarView" pc="268439632" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="136" parent="globals/CalendarView" pc="268439673" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="137" parent="globals/CalendarView" pc="268439683" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="138" parent="globals/CalendarView" pc="268439690" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="139" parent="globals/CalendarView" pc="268439700" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="140" parent="globals/CalendarView" pc="268439712" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="142" parent="globals/CalendarView" pc="268439724" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="143" parent="globals/CalendarView" pc="268439762" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="144" parent="globals/CalendarView" pc="268439786" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="145" parent="globals/CalendarView" pc="268439813" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="147" parent="globals/CalendarView" pc="268439823" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="148" parent="globals/CalendarView" pc="268439834" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="149" parent="globals/CalendarView" pc="268439850" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="150" parent="globals/CalendarView" pc="268439880" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="154" parent="globals/CalendarView" pc="268439932" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="155" parent="globals/CalendarView" pc="268439946" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="156" parent="globals/CalendarView" pc="268439956" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="157" parent="globals/CalendarView" pc="268439972" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="159" parent="globals/CalendarView" pc="268439978" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="160" parent="globals/CalendarView" pc="268439985" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="161" parent="globals/CalendarView" pc="268440003" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="162" parent="globals/CalendarView" pc="268440019" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="163" parent="globals/CalendarView" pc="268440029" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="164" parent="globals/CalendarView" pc="268440042" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="166" parent="globals/CalendarView" pc="268440055" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="167" parent="globals/CalendarView" pc="268440081" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="168" parent="globals/CalendarView" pc="268440097" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="171" parent="globals/CalendarView" pc="268440125" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="172" parent="globals/CalendarView" pc="268440132" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="173" parent="globals/CalendarView" pc="268440139" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="174" parent="globals/CalendarView" pc="268440145" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="175" parent="globals/CalendarView" pc="268440152" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="176" parent="globals/CalendarView" pc="268440170" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="177" parent="globals/CalendarView" pc="268440176" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="178" parent="globals/CalendarView" pc="268440183" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="179" parent="globals/CalendarView" pc="268440190" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="180" parent="globals/CalendarView" pc="268440197" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="181" parent="globals/CalendarView" pc="268440205" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="182" parent="globals/CalendarView" pc="268440223" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="184" parent="globals/CalendarView" pc="268440233" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="185" parent="globals/CalendarView" pc="268440249" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="189" parent="globals/CalendarView" pc="268440259" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="190" parent="globals/CalendarView" pc="268440269" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="191" parent="globals/CalendarView" pc="268440299" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="192" parent="globals/CalendarView" pc="268440304" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="193" parent="globals/CalendarView" pc="268440321" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="194" parent="globals/CalendarView" pc="268440343" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="196" parent="globals/CalendarView" pc="268440349" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="197" parent="globals/CalendarView" pc="268440378" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="201" parent="globals/CalendarView" pc="268440412" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="202" parent="globals/CalendarView" pc="268440424" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="203" parent="globals/CalendarView" pc="268440460" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="204" parent="globals/CalendarView" pc="268440496" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="205" parent="globals/CalendarView" pc="268440531" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="44" lineNum="207" parent="globals/CalendarView" pc="268440567" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="45" lineNum="216" parent="globals/CalendarDelegate" pc="268440608" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="45" lineNum="217" parent="globals/CalendarDelegate" pc="268440610" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="45" lineNum="218" parent="globals/CalendarDelegate" pc="268440622" symbol="initialize"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="46" lineNum="221" parent="globals/CalendarDelegate" pc="268440632" symbol="onKey"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="46" lineNum="222" parent="globals/CalendarDelegate" pc="268440635" symbol="onKey"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="46" lineNum="223" parent="globals/CalendarDelegate" pc="268440644" symbol="onKey"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="46" lineNum="224" parent="globals/CalendarDelegate" pc="268440652" symbol="onKey"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="46" lineNum="225" parent="globals/CalendarDelegate" pc="268440664" symbol="onKey"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="46" lineNum="227" parent="globals/CalendarDelegate" pc="268440669" symbol="onKey"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="46" lineNum="228" parent="globals/CalendarDelegate" pc="268440677" symbol="onKey"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="46" lineNum="229" parent="globals/CalendarDelegate" pc="268440689" symbol="onKey"/>
+        <entry filename="C:\\Users\\wolfa\\Desktop\\LunarCalendar\\source\\CalendarView.mc" id="46" lineNum="231" parent="globals/CalendarDelegate" pc="268440694" symbol="onKey"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="42" method="true" symbol="ymdToDay"/>
+        <entry id="11" object="true" symbol="WanNianLiApp"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="51" symbol="&lt;globals/CalendarView/&lt;&gt;_fSmall&gt;"/>
+        <entry id="8" object="true" symbol="CalendarView"/>
+        <entry id="18" symbol="WEEKDAY_NAMES"/>
+        <entry id="57" method="true" symbol="&lt;globals/CalendarView/&lt;&gt;colorOfKind&gt;"/>
+        <entry id="36" method="true" symbol="solarFestival"/>
+        <entry field="true" id="50" symbol="&lt;globals/CalendarView/&lt;&gt;_fNum&gt;"/>
+        <entry field="true" id="49" symbol="&lt;globals/CalendarView/&lt;&gt;_fLunar&gt;"/>
+        <entry id="37" method="true" symbol="solarToLunar"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="59" method="true" symbol="nextMonth"/>
+        <entry field="true" id="8388782" method="true" symbol="size"/>
+        <entry field="true" id="61" symbol="&lt;globals/CalendarDelegate/&lt;&gt;_view&gt;"/>
+        <entry field="true" id="63" symbol="AppName"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="13" symbol="DAY_NAMES"/>
+        <entry id="10" module="true" symbol="LunarCalData"/>
+        <entry id="9" module="true" symbol="LunarCal"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="22" method="true" symbol="eventOf"/>
+        <entry id="14" symbol="MONTH_LENGTHS"/>
+        <entry id="3" module="true" symbol="globals/LunarCalData"/>
+        <entry field="true" id="56" symbol="&lt;globals/CalendarView/&lt;&gt;_year&gt;"/>
+        <entry id="4" module="true" symbol="globals/Rez"/>
+        <entry id="17" symbol="TERM_NAMES"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="24" method="true" symbol="ganzhiYear"/>
+        <entry id="32" method="true" symbol="lunarMonthDays"/>
+        <entry id="21" method="true" symbol="daysInMonth"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="26" method="true" symbol="isLeapYear"/>
+        <entry id="2" module="true" symbol="globals/LunarCal"/>
+        <entry id="34" method="true" symbol="lunarYearIndex"/>
+        <entry id="30" method="true" symbol="lunarFestival"/>
+        <entry field="true" id="54" symbol="&lt;globals/CalendarView/&lt;&gt;_month&gt;"/>
+        <entry id="16" symbol="STEMS"/>
+        <entry id="19" symbol="ZODIAC"/>
+        <entry id="41" method="true" symbol="weekdayOf"/>
+        <entry id="45" symbol="LUNAR_YEAR_START"/>
+        <entry id="38" method="true" symbol="termDay"/>
+        <entry id="12" symbol="BRANCHES"/>
+        <entry id="40" method="true" symbol="termName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="58" method="true" symbol="&lt;globals/CalendarView/&lt;&gt;drawCenter&gt;"/>
+        <entry id="31" method="true" symbol="lunarInfo"/>
+        <entry id="44" symbol="LUNAR_INFO"/>
+        <entry id="25" method="true" symbol="idiv"/>
+        <entry id="8391454" object="true" symbol="GlanceView"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="55" symbol="&lt;globals/CalendarView/&lt;&gt;_todayDay&gt;"/>
+        <entry id="8392219" symbol="face"/>
+        <entry id="29" method="true" symbol="lunarDayName"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="62" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="27" method="true" symbol="leapDays"/>
+        <entry id="48" method="true" symbol="&lt;globals/GlanceView/&lt;&gt;drawCenter&gt;"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="46" symbol="TERM_DAYS"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="60" method="true" symbol="prevMonth"/>
+        <entry id="39" method="true" symbol="termFestival"/>
+        <entry id="8392216" object="true" symbol="VectorFont"/>
+        <entry id="8389097" method="true" symbol="onKey"/>
+        <entry id="35" method="true" symbol="nearestEvent"/>
+        <entry id="43" method="true" symbol="zodiacOf"/>
+        <entry id="7" object="true" symbol="CalendarDelegate"/>
+        <entry field="true" id="53" symbol="&lt;globals/CalendarView/&lt;&gt;_fTitle&gt;"/>
+        <entry id="20" method="true" symbol="dayToYmd"/>
+        <entry id="47" method="true" symbol="&lt;globals/GlanceView/&lt;&gt;colorOfKind&gt;"/>
+        <entry id="15" symbol="MONTH_NAMES"/>
+        <entry id="28" method="true" symbol="leapMonth"/>
+        <entry id="33" method="true" symbol="lunarMonthName"/>
+        <entry id="8391457" method="true" symbol="getGlanceView"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="52" symbol="&lt;globals/CalendarView/&lt;&gt;_fSub&gt;"/>
+        <entry id="23" method="true" symbol="eventOfDay"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435542" name="view" stackId="1" startPc="268435490"/>
+        <entry arg="true" endPc="268435610" name="d" stackId="1" startPc="268435589"/>
+        <entry arg="true" endPc="268435678" name="day" stackId="1" startPc="268435611"/>
+        <entry endPc="268435678" name="ymd" stackId="2" startPc="268435622"/>
+        <entry endPc="268435678" name="y" stackId="3" startPc="268435622"/>
+        <entry endPc="268435678" name="m" stackId="4" startPc="268435622"/>
+        <entry endPc="268435678" name="d" stackId="5" startPc="268435622"/>
+        <entry arg="true" endPc="268435892" name="fromDay" stackId="1" startPc="268435679"/>
+        <entry endPc="268435890" name="off" stackId="2" startPc="268435701"/>
+        <entry endPc="268435761" name="e0" stackId="3" startPc="268435708"/>
+        <entry endPc="268435880" name="next" stackId="4" startPc="268435701"/>
+        <entry endPc="268435880" name="prev" stackId="5" startPc="268435701"/>
+        <entry arg="true" endPc="268436240" name="lm" stackId="1" startPc="268435893"/>
+        <entry arg="true" endPc="268436240" name="ld" stackId="2" startPc="268435893"/>
+        <entry arg="true" endPc="268436240" name="lastDayOfLunarMonth" stackId="3" startPc="268435893"/>
+        <entry arg="true" endPc="268436240" name="inLeap" stackId="4" startPc="268435893"/>
+        <entry arg="true" endPc="268436321" name="year" stackId="1" startPc="268436241"/>
+        <entry arg="true" endPc="268436321" name="m" stackId="2" startPc="268436241"/>
+        <entry arg="true" endPc="268436321" name="d" stackId="3" startPc="268436241"/>
+        <entry endPc="268436321" name="name" stackId="4" startPc="268436252"/>
+        <entry arg="true" endPc="268436364" name="m" stackId="1" startPc="268436322"/>
+        <entry arg="true" endPc="268436364" name="inLeap" stackId="2" startPc="268436322"/>
+        <entry endPc="268436364" name="name" stackId="3" startPc="268436333"/>
+        <entry arg="true" endPc="268436426" name="ly" stackId="1" startPc="268436365"/>
+        <entry endPc="268436426" name="idx" stackId="2" startPc="268436376"/>
+        <entry arg="true" endPc="268436586" name="y" stackId="1" startPc="268436427"/>
+        <entry arg="true" endPc="268436586" name="m" stackId="2" startPc="268436427"/>
+        <entry arg="true" endPc="268436586" name="d" stackId="3" startPc="268436427"/>
+        <entry endPc="268436586" name="yy" stackId="4" startPc="268436438"/>
+        <entry endPc="268436586" name="era" stackId="5" startPc="268436438"/>
+        <entry endPc="268436586" name="yoe" stackId="6" startPc="268436438"/>
+        <entry endPc="268436586" name="mp" stackId="7" startPc="268436438"/>
+        <entry endPc="268436586" name="doy" stackId="8" startPc="268436438"/>
+        <entry endPc="268436586" name="doe" stackId="9" startPc="268436438"/>
+        <entry arg="true" endPc="268436676" name="year" stackId="1" startPc="268436587"/>
+        <entry arg="true" endPc="268436676" name="month" stackId="2" startPc="268436587"/>
+        <entry arg="true" endPc="268436676" name="day" stackId="3" startPc="268436587"/>
+        <entry arg="true" endPc="268436715" name="day" stackId="1" startPc="268436677"/>
+        <entry endPc="268436715" name="w" stackId="2" startPc="268436688"/>
+        <entry arg="true" endPc="268436742" name="y" stackId="1" startPc="268436716"/>
+        <entry arg="true" endPc="268436889" name="y" stackId="1" startPc="268436743"/>
+        <entry arg="true" endPc="268436889" name="m" stackId="2" startPc="268436743"/>
+        <entry arg="true" endPc="268436889" name="d" stackId="3" startPc="268436743"/>
+        <entry arg="true" endPc="268436889" name="lunar" stackId="4" startPc="268436743"/>
+        <entry endPc="268436889" name="sf" stackId="5" startPc="268436754"/>
+        <entry endPc="268436871" name="ly" stackId="6" startPc="268436786"/>
+        <entry endPc="268436871" name="lm" stackId="7" startPc="268436786"/>
+        <entry endPc="268436871" name="ld" stackId="8" startPc="268436786"/>
+        <entry endPc="268436871" name="inLeap" stackId="9" startPc="268436786"/>
+        <entry endPc="268436871" name="lastDay" stackId="10" startPc="268436786"/>
+        <entry endPc="268436871" name="lf" stackId="11" startPc="268436786"/>
+        <entry arg="true" endPc="268437155" name="day" stackId="1" startPc="268436890"/>
+        <entry endPc="268437155" name="z" stackId="2" startPc="268436901"/>
+        <entry endPc="268437155" name="era" stackId="3" startPc="268436901"/>
+        <entry endPc="268437155" name="doe" stackId="4" startPc="268436901"/>
+        <entry endPc="268437155" name="yoe" stackId="5" startPc="268436901"/>
+        <entry endPc="268437155" name="y" stackId="6" startPc="268436901"/>
+        <entry endPc="268437155" name="doy" stackId="7" startPc="268436901"/>
+        <entry endPc="268437155" name="mp" stackId="8" startPc="268436901"/>
+        <entry endPc="268437155" name="d" stackId="9" startPc="268436901"/>
+        <entry endPc="268437155" name="m" stackId="10" startPc="268436901"/>
+        <entry endPc="268437155" name="yy" stackId="11" startPc="268436901"/>
+        <entry arg="true" endPc="268437200" name="y" stackId="1" startPc="268437156"/>
+        <entry arg="true" endPc="268437247" name="ly" stackId="1" startPc="268437201"/>
+        <entry endPc="268437247" name="idx" stackId="2" startPc="268437212"/>
+        <entry arg="true" endPc="268437296" name="y" stackId="1" startPc="268437248"/>
+        <entry arg="true" endPc="268437296" name="m" stackId="2" startPc="268437248"/>
+        <entry arg="true" endPc="268437337" name="y" stackId="1" startPc="268437297"/>
+        <entry arg="true" endPc="268437337" name="m" stackId="2" startPc="268437297"/>
+        <entry arg="true" endPc="268437405" name="year" stackId="1" startPc="268437338"/>
+        <entry arg="true" endPc="268437405" name="month" stackId="2" startPc="268437338"/>
+        <entry arg="true" endPc="268437405" name="idx" stackId="3" startPc="268437338"/>
+        <entry endPc="268437405" name="row" stackId="4" startPc="268437349"/>
+        <entry endPc="268437405" name="pos" stackId="5" startPc="268437349"/>
+        <entry arg="true" endPc="268437427" name="a" stackId="1" startPc="268437406"/>
+        <entry arg="true" endPc="268437427" name="b" stackId="2" startPc="268437406"/>
+        <entry arg="true" endPc="268437451" name="y" stackId="1" startPc="268437428"/>
+        <entry arg="true" endPc="268437509" name="y" stackId="1" startPc="268437452"/>
+        <entry arg="true" endPc="268437800" name="day" stackId="1" startPc="268437510"/>
+        <entry endPc="268437800" name="off" stackId="2" startPc="268437521"/>
+        <entry endPc="268437800" name="yi" stackId="3" startPc="268437521"/>
+        <entry endPc="268437800" name="y" stackId="4" startPc="268437521"/>
+        <entry endPc="268437800" name="info" stackId="5" startPc="268437521"/>
+        <entry endPc="268437800" name="rest" stackId="6" startPc="268437521"/>
+        <entry endPc="268437800" name="lp" stackId="7" startPc="268437521"/>
+        <entry endPc="268437800" name="m" stackId="8" startPc="268437521"/>
+        <entry endPc="268437800" name="inLeap" stackId="9" startPc="268437521"/>
+        <entry endPc="268437769" name="days" stackId="10" startPc="268437650"/>
+        <entry arg="true" endPc="268437900" name="off" stackId="1" startPc="268437801"/>
+        <entry endPc="268437900" name="lo" stackId="2" startPc="268437812"/>
+        <entry endPc="268437900" name="hi" stackId="3" startPc="268437812"/>
+        <entry endPc="268437894" name="mid" stackId="4" startPc="268437843"/>
+        <entry arg="true" endPc="268437987" name="m" stackId="1" startPc="268437901"/>
+        <entry arg="true" endPc="268437987" name="d" stackId="2" startPc="268437901"/>
+        <entry arg="true" endPc="268438024" name="dc" stackId="1" startPc="268437988"/>
+        <entry arg="true" endPc="268438024" name="x" stackId="2" startPc="268437988"/>
+        <entry arg="true" endPc="268438024" name="y" stackId="3" startPc="268437988"/>
+        <entry arg="true" endPc="268438024" name="font" stackId="4" startPc="268437988"/>
+        <entry arg="true" endPc="268438024" name="text" stackId="5" startPc="268437988"/>
+        <entry arg="true" endPc="268438024" name="color" stackId="6" startPc="268437988"/>
+        <entry arg="true" endPc="268438554" name="dc" stackId="1" startPc="268438040"/>
+        <entry endPc="268438553" name="w" stackId="2" startPc="268438043"/>
+        <entry endPc="268438553" name="h" stackId="3" startPc="268438043"/>
+        <entry endPc="268438553" name="info" stackId="4" startPc="268438043"/>
+        <entry endPc="268438553" name="y" stackId="5" startPc="268438043"/>
+        <entry endPc="268438553" name="m" stackId="6" startPc="268438043"/>
+        <entry endPc="268438553" name="d" stackId="7" startPc="268438043"/>
+        <entry endPc="268438553" name="todayDay" stackId="8" startPc="268438043"/>
+        <entry endPc="268438553" name="dow" stackId="9" startPc="268438043"/>
+        <entry endPc="268438553" name="dateText" stackId="10" startPc="268438043"/>
+        <entry endPc="268438553" name="lunar" stackId="11" startPc="268438043"/>
+        <entry endPc="268438375" name="ly" stackId="12" startPc="268438263"/>
+        <entry endPc="268438375" name="lm" stackId="13" startPc="268438263"/>
+        <entry endPc="268438375" name="ld" stackId="14" startPc="268438263"/>
+        <entry endPc="268438375" name="inLeap" stackId="15" startPc="268438263"/>
+        <entry endPc="268438375" name="lunarText" stackId="16" startPc="268438263"/>
+        <entry endPc="268438553" name="ev" stackId="17" startPc="268438043"/>
+        <entry endPc="268438550" name="name" stackId="18" startPc="268438401"/>
+        <entry endPc="268438550" name="kind" stackId="19" startPc="268438401"/>
+        <entry endPc="268438550" name="diff" stackId="20" startPc="268438401"/>
+        <entry endPc="268438550" name="text" stackId="21" startPc="268438401"/>
+        <entry arg="true" endPc="268438633" name="kind" stackId="1" startPc="268438555"/>
+        <entry arg="true" endPc="268438880" name="dc" stackId="1" startPc="268438844"/>
+        <entry arg="true" endPc="268438880" name="x" stackId="2" startPc="268438844"/>
+        <entry arg="true" endPc="268438880" name="y" stackId="3" startPc="268438844"/>
+        <entry arg="true" endPc="268438880" name="font" stackId="4" startPc="268438844"/>
+        <entry arg="true" endPc="268438880" name="text" stackId="5" startPc="268438844"/>
+        <entry arg="true" endPc="268438880" name="color" stackId="6" startPc="268438844"/>
+        <entry arg="true" endPc="268438959" name="kind" stackId="1" startPc="268438881"/>
+        <entry endPc="268439391" name="now" stackId="1" startPc="268438963"/>
+        <entry endPc="268439391" name="info" stackId="2" startPc="268438963"/>
+        <entry endPc="268439286" name="face" stackId="3" startPc="268439080"/>
+        <entry arg="true" endPc="268440607" name="dc" stackId="1" startPc="268439393"/>
+        <entry endPc="268440606" name="w" stackId="2" startPc="268439396"/>
+        <entry endPc="268440606" name="h" stackId="3" startPc="268439396"/>
+        <entry endPc="268440606" name="midDay" stackId="4" startPc="268439396"/>
+        <entry endPc="268440606" name="mLunar" stackId="5" startPc="268439396"/>
+        <entry endPc="268439669" name="ly" stackId="6" startPc="268439552"/>
+        <entry endPc="268439669" name="lm" stackId="7" startPc="268439552"/>
+        <entry endPc="268439669" name="inLeap" stackId="8" startPc="268439552"/>
+        <entry endPc="268439669" name="sub" stackId="9" startPc="268439552"/>
+        <entry endPc="268440606" name="gridW" stackId="10" startPc="268439396"/>
+        <entry endPc="268440606" name="cellW" stackId="11" startPc="268439396"/>
+        <entry endPc="268440606" name="x0" stackId="12" startPc="268439396"/>
+        <entry endPc="268440606" name="gridTop" stackId="13" startPc="268439396"/>
+        <entry endPc="268440606" name="gridBottom" stackId="14" startPc="268439396"/>
+        <entry endPc="268440606" name="firstWeekday" stackId="15" startPc="268439396"/>
+        <entry endPc="268440606" name="nDays" stackId="16" startPc="268439396"/>
+        <entry endPc="268440606" name="rows" stackId="17" startPc="268439396"/>
+        <entry endPc="268440606" name="cellH" stackId="18" startPc="268439396"/>
+        <entry endPc="268439931" name="c" stackId="19" startPc="268439834"/>
+        <entry endPc="268439921" name="cxHeader" stackId="20" startPc="268439834"/>
+        <entry endPc="268439921" name="hColor" stackId="21" startPc="268439834"/>
+        <entry endPc="268440411" name="i" stackId="22" startPc="268439946"/>
+        <entry endPc="268440401" name="dayNum" stackId="23" startPc="268439946"/>
+        <entry endPc="268440401" name="col" stackId="24" startPc="268439946"/>
+        <entry endPc="268440401" name="row" stackId="25" startPc="268439946"/>
+        <entry endPc="268440401" name="cx" stackId="26" startPc="268439946"/>
+        <entry endPc="268440401" name="rowTop" stackId="27" startPc="268439946"/>
+        <entry endPc="268440401" name="numY" stackId="28" startPc="268439946"/>
+        <entry endPc="268440401" name="lunarY" stackId="29" startPc="268439946"/>
+        <entry endPc="268440401" name="dayVal" stackId="30" startPc="268439946"/>
+        <entry endPc="268440401" name="lunar" stackId="31" startPc="268439946"/>
+        <entry endPc="268440401" name="event" stackId="32" startPc="268439946"/>
+        <entry endPc="268440401" name="lunarText" stackId="33" startPc="268439946"/>
+        <entry endPc="268440401" name="lunarColor" stackId="34" startPc="268439946"/>
+        <entry endPc="268440255" name="lm" stackId="35" startPc="268440176"/>
+        <entry endPc="268440255" name="ld" stackId="36" startPc="268440176"/>
+        <entry endPc="268440255" name="inLeap" stackId="37" startPc="268440176"/>
+        <entry endPc="268440401" name="isToday" stackId="38" startPc="268439946"/>
+        <entry endPc="268440401" name="numColor" stackId="39" startPc="268439946"/>
+        <entry endPc="268440606" name="legendY" stackId="40" startPc="268439396"/>
+        <entry arg="true" endPc="268440631" name="view" stackId="1" startPc="268440608"/>
+        <entry arg="true" endPc="268440695" name="evt" stackId="1" startPc="268440632"/>
+        <entry endPc="268440695" name="key" stackId="2" startPc="268440635"/>
+    </localVars>
+    <deviceInfo deviceVersion="69f9c27a08d175c50b86464a70c24d15718945cb" partNumber="006-B4532-00"/>
+    <annotations>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="lunarMonthDays"/>
+        <annotationEntry annotation="glance" class="GlanceView" module="globals" symbol="COLOR_LUNAR"/>
+        <annotationEntry annotation="glance" class="GlanceView" module="globals" symbol="COLOR_DIM"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="leapMonth"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="termName"/>
+        <annotationEntry annotation="glance" class="WanNianLiApp" module="globals" symbol="onStop"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="WEEKDAY_NAMES"/>
+        <annotationEntry annotation="glance" class="LunarCalData" module="globals" symbol="LUNAR_END_YEAR"/>
+        <annotationEntry annotation="glance" class="GlanceView" module="globals" symbol="COLOR_REG"/>
+        <annotationEntry annotation="glance" class="GlanceView" module="globals" symbol="COLOR_TRAD"/>
+        <annotationEntry annotation="glance" class="LunarCalData" module="globals" symbol="LUNAR_START_YEAR"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="lunarYearIndex"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="termDay"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="KIND_REG"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="lunarDayName"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="TERM_NAMES"/>
+        <annotationEntry annotation="glance" class="GlanceView" module="globals" symbol="initialize"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="KIND_TRAD"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="isLeapYear"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="leapDays"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="lunarInfo"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="nearestEvent"/>
+        <annotationEntry annotation="glance" class="WanNianLiApp" module="globals" symbol="onStart"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="STEMS"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="ymdToDay"/>
+        <annotationEntry annotation="glance" class="GlanceView" module="globals" symbol="drawCenter"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="dayToYmd"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="ganzhiYear"/>
+        <annotationEntry annotation="glance" class="GlanceView" module="globals" symbol="onUpdate"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="weekdayOf"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="DAY_NAMES"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="zodiacOf"/>
+        <annotationEntry annotation="glance" class="WanNianLiApp" module="globals" symbol="initialize"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="KIND_NONE"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="MONTH_LENGTHS"/>
+        <annotationEntry annotation="glance" class="WanNianLiApp" module="globals" symbol="getGlanceView"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="glance" class="LunarCalData" module="globals" symbol="LUNAR_YEAR_START"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="lunarMonthName"/>
+        <annotationEntry annotation="glance" class="GlanceView" module="globals" symbol="COLOR_BG"/>
+        <annotationEntry annotation="glance" class="GlanceView" module="globals" symbol="COLOR_TERM"/>
+        <annotationEntry annotation="glance" class="GlanceView" module="globals" symbol="COLOR_FG"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="eventOfDay"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="idiv"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="EPOCH_DAY"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="solarFestival"/>
+        <annotationEntry annotation="glance" class="LunarCalData" module="globals" symbol="LUNAR_INFO"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="eventOf"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="BRANCHES"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="MONTH_NAMES"/>
+        <annotationEntry annotation="glance" class="GlanceView" module="globals" symbol="colorOfKind"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="termFestival"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="KIND_TERM"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="daysInMonth"/>
+        <annotationEntry annotation="glance" class="LunarCalData" module="globals" symbol="TERM_DAYS"/>
+        <annotationEntry annotation="glance" class="WanNianLiApp" module="globals" symbol="getInitialView"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="lunarFestival"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="solarToLunar"/>
+        <annotationEntry annotation="glance" class="LunarCal" module="globals" symbol="ZODIAC"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/WanNianLiApp" offset="161" parentId="globals" symbolId="WanNianLiApp" type="class"/>
+        <dataEntry label="globals/LunarCal" offset="241" parentId="globals" symbolId="LunarCal" type="module"/>
+        <dataEntry label="globals/LunarCalData" offset="555" parentId="globals" symbolId="LunarCalData" type="module"/>
+        <dataEntry label="globals/GlanceView" offset="608" parentId="globals" symbolId="GlanceView" type="class"/>
+        <dataEntry label="globals/CalendarView" offset="9869" parentId="globals" symbolId="CalendarView" type="class"/>
+        <dataEntry label="globals/Rez" offset="10030" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/CalendarDelegate" offset="10074" parentId="globals" symbolId="CalendarDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="10136" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="10171" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="WanNianLiApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="LunarCal">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="LunarCalData">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435483" name="&lt;init&gt;" parent="GlanceView" startPc="268435472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435486" name="onStart" parent="WanNianLiApp" startPc="268435484">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435542" name="getInitialView" parent="WanNianLiApp" startPc="268435487">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435557" name="initialize" parent="WanNianLiApp" startPc="268435543">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435585" name="getGlanceView" parent="WanNianLiApp" startPc="268435558">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435588" name="onStop" parent="WanNianLiApp" startPc="268435586">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435610" name="lunarDayName" parent="LunarCal" startPc="268435589">
+            <param id="d"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435678" name="eventOfDay" parent="LunarCal" startPc="268435611">
+            <param id="day"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435892" name="nearestEvent" parent="LunarCal" startPc="268435679">
+            <param id="fromDay"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436240" name="lunarFestival" parent="LunarCal" startPc="268435893">
+            <param id="lm"/>
+            <param id="ld"/>
+            <param id="lastDayOfLunarMonth"/>
+            <param id="inLeap"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436321" name="termFestival" parent="LunarCal" startPc="268436241">
+            <param id="year"/>
+            <param id="m"/>
+            <param id="d"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436364" name="lunarMonthName" parent="LunarCal" startPc="268436322">
+            <param id="m"/>
+            <param id="inLeap"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436426" name="ganzhiYear" parent="LunarCal" startPc="268436365">
+            <param id="ly"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436586" name="ymdToDay" parent="LunarCal" startPc="268436427">
+            <param id="y"/>
+            <param id="m"/>
+            <param id="d"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436676" name="termName" parent="LunarCal" startPc="268436587">
+            <param id="year"/>
+            <param id="month"/>
+            <param id="day"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436715" name="weekdayOf" parent="LunarCal" startPc="268436677">
+            <param id="day"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436742" name="lunarInfo" parent="LunarCal" startPc="268436716">
+            <param id="y"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436889" name="eventOf" parent="LunarCal" startPc="268436743">
+            <param id="y"/>
+            <param id="m"/>
+            <param id="d"/>
+            <param id="lunar"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437155" name="dayToYmd" parent="LunarCal" startPc="268436890">
+            <param id="day"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437200" name="isLeapYear" parent="LunarCal" startPc="268437156">
+            <param id="y"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437247" name="zodiacOf" parent="LunarCal" startPc="268437201">
+            <param id="ly"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437296" name="daysInMonth" parent="LunarCal" startPc="268437248">
+            <param id="y"/>
+            <param id="m"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437337" name="lunarMonthDays" parent="LunarCal" startPc="268437297">
+            <param id="y"/>
+            <param id="m"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437405" name="termDay" parent="LunarCal" startPc="268437338">
+            <param id="year"/>
+            <param id="month"/>
+            <param id="idx"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437427" name="idiv" parent="LunarCal" startPc="268437406">
+            <param id="a"/>
+            <param id="b"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437451" name="leapMonth" parent="LunarCal" startPc="268437428">
+            <param id="y"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437509" name="leapDays" parent="LunarCal" startPc="268437452">
+            <param id="y"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437800" name="solarToLunar" parent="LunarCal" startPc="268437510">
+            <param id="day"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437900" name="lunarYearIndex" parent="LunarCal" startPc="268437801">
+            <param id="off"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437987" name="solarFestival" parent="LunarCal" startPc="268437901">
+            <param id="m"/>
+            <param id="d"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438024" name="&lt;globals/GlanceView/&lt;&gt;drawCenter&gt;" parent="GlanceView" startPc="268437988">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="font"/>
+            <param id="text"/>
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438039" name="initialize" parent="GlanceView" startPc="268438025">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438554" name="onUpdate" parent="GlanceView" startPc="268438040">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438633" name="&lt;globals/GlanceView/&lt;&gt;colorOfKind&gt;" parent="GlanceView" startPc="268438555">
+            <param id="kind"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438645" name="&lt;init&gt;" parent="CalendarView" startPc="268438634">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438665" name="&lt;init&gt;" parent="Rez" startPc="268438646">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438677" name="&lt;init&gt;" parent="CalendarDelegate" startPc="268438666">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438760" name="nextMonth" parent="CalendarView" startPc="268438678">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438843" name="prevMonth" parent="CalendarView" startPc="268438761">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438880" name="&lt;globals/CalendarView/&lt;&gt;drawCenter&gt;" parent="CalendarView" startPc="268438844">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="font"/>
+            <param id="text"/>
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438959" name="&lt;globals/CalendarView/&lt;&gt;colorOfKind&gt;" parent="CalendarView" startPc="268438881">
+            <param id="kind"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439392" name="initialize" parent="CalendarView" startPc="268438960">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440607" name="onUpdate" parent="CalendarView" startPc="268439393">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440631" name="initialize" parent="CalendarDelegate" startPc="268440608">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440695" name="onKey" parent="CalendarDelegate" startPc="268440632">
+            <param id="evt"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
